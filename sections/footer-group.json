@@ -4,6 +4,26 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "15f030cf-8be5-46c1-a032-18148a65ac58": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "main-menu"
+          }
+        },
+        "48b2c3b2-557a-4c50-84f9-f02888715e24": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "15f030cf-8be5-46c1-a032-18148a65ac58",
+        "48b2c3b2-557a-4c50-84f9-f02888715e24"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
