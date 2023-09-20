@@ -1,22 +1,10 @@
 <section class="policy shipping-policy-content">
   <div class="page-width">
     <div class="rte">
-      {{ shop.policy.body | json }}
+      {{ shop.shipping_policy }}
     </div>
   </div>
 </section>
-
-<ul abc>
-{%- for policy in shop.policies -%}
-              {%- if policy != blank -%}
-                <li>
-                  <small class="copyright__content"
-                    ><a href="{{ policy.url }}">{{ policy.title }}</a></small
-                  >
-                </li>
-              {%- endif -%}
-            {%- endfor -%}
-</ul>
 
 {% schema %}
   {
