@@ -6,10 +6,16 @@
   </div>
 </section>
 
-<ul>
-{%- for policy in shop.policies %}
-  <li>{{ policy.title }}</li>
-{%- endfor %}
+<ul abc>
+{%- for policy in shop.policies -%}
+              {%- if policy != blank -%}
+                <li>
+                  <small class="copyright__content"
+                    ><a href="{{ policy.url }}">{{ policy.title }}</a></small
+                  >
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
 </ul>
 
 {% schema %}
