@@ -5,14 +5,14 @@
       "settings": {
       }
     },
-    "terms-of-service-content": {
-      "type": "terms-of-service-content",
+    "refund-policy-content": {
+      "type": "refund-policy-content",
       "settings": {
       }
     }
   },
   "order": [
     "page-banner",
-    "terms-of-service-content"
+    "refund-policy-content"
   ]
 }
