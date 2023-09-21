@@ -436,6 +436,10 @@ table:not([class]) {
   /* draws the table border  */
 }
 
+.scrollable-wrapper th, .scrollable-wrapper td {
+    width: 50%;
+}
+
 table:not([class]) td,
 table:not([class]) th {
   padding: 1em;
