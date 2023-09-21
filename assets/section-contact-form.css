@@ -28,6 +28,9 @@
 .contact p {
     font-weight: 300;
 }
+.contact p a{
+    color: #FFD913;
+}
 
 @media screen and (min-width: 750px) {
   .contact .field {
