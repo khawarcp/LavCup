@@ -2377,7 +2377,6 @@ product-info .loading-overlay:not(.hidden) ~ *,
   background-color: rgb(var(--color-background));
 }
 
-
 .header {
   display: grid;
   grid-template-areas: 'left-icons heading icons';
