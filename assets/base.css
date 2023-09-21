@@ -440,10 +440,15 @@ table:not([class]) {
     width: 50%;
 }
 
+
 table:not([class]) td,
 table:not([class]) th {
   padding: 1em;
   border: 0.1rem solid rgba(var(--color-foreground), 0.2);
+}
+
+.page-width.page-width--narrow {
+    font-weight: 300;
 }
 
 @media screen and (max-width: 749px) {
