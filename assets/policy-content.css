@@ -13,3 +13,8 @@ table td, table th{
 table {
     width: 100%;
 }
+
+table th {
+    text-align: left;
+    font-size: 21px;
+}
