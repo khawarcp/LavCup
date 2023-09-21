@@ -9,3 +9,7 @@
     border-radius: 20px;
     text-transform: capitalize;
 }
+
+.page-bg h1 span {
+    color: #FFD913;
+}
