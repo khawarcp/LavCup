@@ -284,7 +284,7 @@ h5,
   word-break: break-word;
 }
 
-h1 span {
+h1 span, h2 span, h2 a {
     color: #FFD913
 }
 
