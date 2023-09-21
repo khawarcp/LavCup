@@ -145,6 +145,25 @@
         "unit": "%",
         "label": "t:settings_schema.typography.settings.body_scale.label",
         "default": 100
+      },
+      {
+        "type": "header",
+        "content": "Custom Font"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_custom_font",
+        "label": "Use Custom Fonts"
+      },
+      {
+        "type": "text",
+        "id": "custom_heading_font",
+        "label": "Heading Font"
+      },
+      {
+        "type": "text",
+        "id": "custom_body_font",
+        "label": "Body Font"
       }
     ]
   },
