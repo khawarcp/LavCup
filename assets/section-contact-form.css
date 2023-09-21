@@ -14,6 +14,10 @@
   margin-bottom: 1.5rem;
 }
 
+.field__label span{
+  color: #FFD913;
+}
+
 @media screen and (min-width: 750px) {
   .contact .field {
     margin-bottom: 2rem;
