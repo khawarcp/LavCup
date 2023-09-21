@@ -5,3 +5,7 @@
   color : #FFD913;
   text-decoration: none;
 }
+
+table td, table th{
+  width: 50%;
+}
