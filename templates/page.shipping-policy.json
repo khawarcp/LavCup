@@ -3,11 +3,15 @@
     "page-banner": {
       "type": "page-banner",
       "settings": {
+        "heading": "{{ page.metafields.custom.modified_title.value }}",
+        "bg_image": "shopify:\/\/shop_images\/Page_Background.jpg"
       }
     },
     "shipping-policy-content": {
       "type": "shipping-policy-content",
       "settings": {
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     }
   },
