@@ -97,12 +97,13 @@
           {%- endif -%}
         </div>
       </div>
+    <div class="contact__fields">
       <div class="field">
         <input
           type="tel"
           id="ContactForm-phone"
           class="field__input"
-          autocomplete="tel"
+          autocomplete="tel" 
           name="contact[{{ 'templates.contact.form.phone' | t }}]"
           pattern="[0-9\-]*"
           value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
@@ -110,6 +111,19 @@
         >
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
+      <div class="field">
+          <input
+            class="field__input"
+            autocomplete="hear-about-us"
+            type="text"
+            id="ContactForm-hear-about-us"
+            name="contact[Where_did_you_hear_about_us?]"
+            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+            placeholder="Where did you hear about us?"
+          >
+          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+        </div>
+    </div>
       <div class="field">
         <textarea
           rows="10"
