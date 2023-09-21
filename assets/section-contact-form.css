@@ -25,6 +25,9 @@
 .contact h2, .contact p {
     text-align: center;
 }
+.contact p {
+    font-weight: 300;
+}
 
 @media screen and (min-width: 750px) {
   .contact .field {
