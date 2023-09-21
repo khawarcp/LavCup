@@ -22,6 +22,10 @@
     text-align: right;
 }
 
+.contact h2 {
+    text-align: center;
+}
+
 @media screen and (min-width: 750px) {
   .contact .field {
     margin-bottom: 2rem;
