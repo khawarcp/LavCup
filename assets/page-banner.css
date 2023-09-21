@@ -1,0 +1,15 @@
+.page-bg {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+
+.page-bg h1 span {
+    color: #FFD913;
+}
