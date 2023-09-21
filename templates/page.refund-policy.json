@@ -3,11 +3,14 @@
     "page-banner": {
       "type": "page-banner",
       "settings": {
+        "heading": ""
       }
     },
     "refund-policy-content": {
       "type": "refund-policy-content",
       "settings": {
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     }
   },
