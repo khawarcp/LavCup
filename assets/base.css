@@ -284,6 +284,10 @@ h5,
   word-break: break-word;
 }
 
+h1 span {
+    color: #FFD913
+}
+
 .hxl {
   font-size: calc(var(--font-heading-scale) * 5rem);
 }
