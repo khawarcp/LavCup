@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "page-banner": {
+      "type": "page-banner",
+      "settings": {
+      }
+    },
+    "installation-content": {
+      "type": "installation-content",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "page-banner",
+    "installation-content"
+  ]
+}
