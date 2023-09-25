@@ -1,0 +1,15 @@
+.parts-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part-item:not(:last-child) {
+    border-right: 1px solid var(--color-foreground);
+    padding: 0 12px;
+}

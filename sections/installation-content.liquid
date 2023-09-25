@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ 'installation-content.css' | asset_url }}">
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -29,6 +31,9 @@
           {% when 'block' %}
           <div class="part-item">
             {% if block.settings.image != blank %}
+            <p class="part-heading">
+                {{ block.settings.text }}
+              </p>
               <img
                 src="{{ block.settings.image | image_url }}"
                 loading="lazy"
@@ -39,9 +44,6 @@
             {% else %}
               {{ 'image' | placeholder_svg_tag }}
             {% endif %}
-            <p class="part-heading">
-              {{ block.settings.text }}
-            </p>
           </div>
         {% endcase %}
       {% endfor %}
