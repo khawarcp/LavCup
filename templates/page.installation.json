@@ -9,7 +9,52 @@
     },
     "installation-content": {
       "type": "installation-content",
+      "blocks": {
+        "0d9541e6-12b0-44fa-a883-2e2b8690fff5": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LavCup_Shelf.svg",
+            "text": "LavCup Shelf"
+          }
+        },
+        "684955a4-5612-4d56-92fd-b70f2d4a6a56": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wall_Mount.svg",
+            "text": "Wall Mount"
+          }
+        },
+        "665d9d1f-d3e6-4dcd-969d-01762512100d": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Window.svg",
+            "text": "Window"
+          }
+        },
+        "ee43eb65-dadf-4c23-a2d9-2c8e06fcfade": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screws.svg",
+            "text": "Screw"
+          }
+        },
+        "beaf208e-35f0-44f7-bb5d-c9d39c50da41": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anchor.svg",
+            "text": "Anchor"
+          }
+        }
+      },
+      "block_order": [
+        "0d9541e6-12b0-44fa-a883-2e2b8690fff5",
+        "684955a4-5612-4d56-92fd-b70f2d4a6a56",
+        "665d9d1f-d3e6-4dcd-969d-01762512100d",
+        "ee43eb65-dadf-4c23-a2d9-2c8e06fcfade",
+        "beaf208e-35f0-44f7-bb5d-c9d39c50da41"
+      ],
       "settings": {
+        "logo": "shopify:\/\/shop_images\/LavCup_Logo.svg"
       }
     }
   },
