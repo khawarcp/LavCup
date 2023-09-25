@@ -3,6 +3,8 @@
     "page-banner": {
       "type": "page-banner",
       "settings": {
+        "heading": "{{ page.metafields.custom.modified_title.value }}",
+        "bg_image": "shopify:\/\/shop_images\/Page_Background.jpg"
       }
     },
     "installation-content": {
