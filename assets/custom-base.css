@@ -5,3 +5,7 @@
 .field__label{
   color: #A1A0A0;
 }
+
+p.inline-richtext {
+  margin-bottom: 40px;
+}
