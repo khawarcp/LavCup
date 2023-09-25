@@ -1,7 +1,42 @@
 <link rel="stylesheet" href="{{ 'installation-steps.css' | asset_url }}">
 
 <section class="section-{{ section.id }}-padding steps-wrapper">
-  <div class="page-width"></div>
+  <div class="page-width">
+    <div class="section-header-installation center ">
+      <h2 class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.step_number }}</h2>
+      <div class="page-width--narrow">
+        <div class="step-inner">
+          <div class="step-inner-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {% if section.settings.image != blank %}
+              <img
+                src="{{ section.settings.image | image_url }}"
+                alt="{{ section.settings.image.alt }}"
+                loading="lazy"
+                height=""
+                width="">
+            {% else %}
+              {{ 'image' | placeholder_svg_tag }}
+            {% endif %}
+          </div>
+          <div class="step-inner-content">
+            <h3 class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+              {{ section.settings.heading }}
+            </h3>
+            <ul class="steps">
+              {% for block in section.blocks %}
+                {% case block.type %}
+                  {% when 'step' %}
+                  <li class="step-item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"{% if settings.animations_reveal_on_scroll %}data-cascadestyle="--animation-order: {{ forloop.index }};"{% endif %}>
+                    {{ block.settings.step }}
+                  </li>
+                {% endcase %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 {% schema %}
@@ -15,6 +50,11 @@
         "default": "Step <span>1</span>"
       },
       {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image`"
+      },
+      {
         "type": "text",
         "id": "heading",
         "label": "Heading",
@@ -23,8 +63,7 @@
       {
         "type": "header",
         "content": "t:sections.all.padding.section_padding_heading"
-      },
-      {
+      }, {
         "type": "range",
         "id": "padding_top",
         "min": 0,

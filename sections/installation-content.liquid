@@ -13,10 +13,10 @@
     }
   }
 {%- endstyle -%}
-<section class="section-{{ section.id }}-padding installation-wrapper">
+<section class="section-{{ section.id }}-padding installation-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
   <div class="page-width">
     {% if section.settings.logo != blank %}
-      <div class="section-header center">
+      <div class="section-header-installation center">
         <img
           src="{{ section.settings.logo | image_url }}"
           loading="lazy"
@@ -29,9 +29,12 @@
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'block' %}
-          <div class="part-item">
+          <div class="part-item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             {% if block.settings.image != blank %}
-            <p class="part-heading">
+            <p class="part-heading" {% if settings.animations_reveal_on_scroll %}
+            data-cascade
+            style="--animation-order: {{ forloop.index }};"
+          {% endif %}>
                 {{ block.settings.text }}
               </p>
               <img
