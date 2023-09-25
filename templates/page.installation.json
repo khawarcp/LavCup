@@ -54,12 +54,24 @@
         "beaf208e-35f0-44f7-bb5d-c9d39c50da41"
       ],
       "settings": {
-        "logo": "shopify:\/\/shop_images\/LavCup_Logo.svg"
+        "logo": "shopify:\/\/shop_images\/LavCup_Logo.svg",
+        "padding_top": 72,
+        "padding_bottom": 48
+      }
+    },
+    "4b7a39fc-f2f6-4162-8746-b2894c47d7cc": {
+      "type": "installation-steps",
+      "settings": {
+        "step_number": "Step 1",
+        "heading": "Secure Wall Mount to Wall",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "page-banner",
-    "installation-content"
+    "installation-content",
+    "4b7a39fc-f2f6-4162-8746-b2894c47d7cc"
   ]
 }
