@@ -29,6 +29,10 @@
   font-size: 18px;
 }
 
+.shopify-payment-button__button {
+  text-transform: capitalize;
+}
+
 .product__description p a {
   color: #FFD913;
   text-decoration: none;
