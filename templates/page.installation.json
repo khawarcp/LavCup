@@ -61,6 +61,59 @@
     },
     "4b7a39fc-f2f6-4162-8746-b2894c47d7cc": {
       "type": "installation-steps",
+      "blocks": {
+        "9aa87741-451f-4041-a512-9286fc1c89f6": {
+          "type": "step",
+          "settings": {
+            "step": "Arrow pointed up"
+          }
+        },
+        "2f051fc5-cb3a-46c0-8663-d9953046a8a2": {
+          "type": "step",
+          "settings": {
+            "step": "Mark wall for pilot holes"
+          }
+        },
+        "7d06ff11-0075-41f0-8b13-572abe6786b3": {
+          "type": "step",
+          "settings": {
+            "step": "Drill four (4)  pilot holes"
+          }
+        },
+        "9b49fece-b09e-4c94-be3c-6c76a351273c": {
+          "type": "step",
+          "settings": {
+            "step": "Insert four (4) anchors"
+          }
+        },
+        "ba96d90e-a0d9-4181-86e8-4c288bdf8797": {
+          "type": "step",
+          "settings": {
+            "step": "Line up wall mount to anchors"
+          }
+        },
+        "19be2e9e-4e7d-482c-92f1-276c86d06fe0": {
+          "type": "step",
+          "settings": {
+            "step": "Use screwdrivers to drive four (4) screws securely into anchors"
+          }
+        },
+        "70a488c7-3246-4ee9-ae00-9dc91bfa4052": {
+          "type": "step",
+          "settings": {
+            "step": "Wall mount secured"
+          }
+        }
+      },
+      "block_order": [
+        "9aa87741-451f-4041-a512-9286fc1c89f6",
+        "2f051fc5-cb3a-46c0-8663-d9953046a8a2",
+        "7d06ff11-0075-41f0-8b13-572abe6786b3",
+        "9b49fece-b09e-4c94-be3c-6c76a351273c",
+        "ba96d90e-a0d9-4181-86e8-4c288bdf8797",
+        "19be2e9e-4e7d-482c-92f1-276c86d06fe0",
+        "70a488c7-3246-4ee9-ae00-9dc91bfa4052"
+      ],
       "settings": {
         "step_number": "Step 1",
         "image": "shopify:\/\/shop_images\/Step_1.jpg",
@@ -68,11 +121,57 @@
         "padding_top": 72,
         "padding_bottom": 72
       }
+    },
+    "e6890152-b30f-4cec-abda-03e6ec712dd6": {
+      "type": "installation-steps",
+      "blocks": {
+        "5496abf6-d92c-4c13-8bbb-18441a21905a": {
+          "type": "step",
+          "settings": {
+            "step": "Place art (not Include) into wall mount tray area"
+          }
+        },
+        "394be5a2-827b-4bab-8b86-3fa3304ea73b": {
+          "type": "step",
+          "settings": {
+            "step": "Place window on lop of art"
+          }
+        },
+        "b2683fe8-51fc-4e48-8b3b-c0d1b3978e73": {
+          "type": "step",
+          "settings": {
+            "step": "Hold window in place with finger"
+          }
+        }
+      },
+      "block_order": [
+        "5496abf6-d92c-4c13-8bbb-18441a21905a",
+        "394be5a2-827b-4bab-8b86-3fa3304ea73b",
+        "b2683fe8-51fc-4e48-8b3b-c0d1b3978e73"
+      ],
+      "settings": {
+        "step_number": "Step 2",
+        "image": "shopify:\/\/shop_images\/Step_2.jpg",
+        "heading": "Insert Art & Windows",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "f2645622-a172-4a0d-809a-65f6bc273467": {
+      "type": "installation-steps",
+      "settings": {
+        "step_number": "Step 3",
+        "heading": "Lavcup on Wall Mount",
+        "padding_top": 76,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
     "page-banner",
     "installation-content",
-    "4b7a39fc-f2f6-4162-8746-b2894c47d7cc"
+    "4b7a39fc-f2f6-4162-8746-b2894c47d7cc",
+    "e6890152-b30f-4cec-abda-03e6ec712dd6",
+    "f2645622-a172-4a0d-809a-65f6bc273467"
   ]
 }
