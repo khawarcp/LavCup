@@ -115,11 +115,11 @@
         "70a488c7-3246-4ee9-ae00-9dc91bfa4052"
       ],
       "settings": {
-        "step_number": "Step <span>1<\/span>",
+        "step_number": "Step 1",
         "image": "shopify:\/\/shop_images\/Step_1.jpg",
-        "heading": "Secure Wall Mount to <span>Wall<\/span>",
-        "padding_top": 72,
-        "padding_bottom": 72
+        "heading": "Secure Wall Mount to Wall",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "e6890152-b30f-4cec-abda-03e6ec712dd6": {
