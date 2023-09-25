@@ -283,11 +283,6 @@ h5,
   line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale)));
   word-break: break-word;
 }
-
-h1 span, h2 span, h2 a {
-    color: #FFD913
-}
-
 .hxl {
   font-size: calc(var(--font-heading-scale) * 5rem);
 }
@@ -445,7 +440,7 @@ table:not([class]) td,
 table:not([class]) th {
   padding: 1em;
   border: 0.1rem solid rgba(var(--color-foreground), 0.2);
-}policy
+}
 
 @media screen and (max-width: 749px) {
   .small-hide {

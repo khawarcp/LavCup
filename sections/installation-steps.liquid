@@ -1,38 +1,48 @@
 <link rel="stylesheet" href="{{ 'installation-steps.css' | asset_url }}">
-
+{%- style -%}
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+  
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+  {%- endstyle -%}
 <section class="section-{{ section.id }}-padding steps-wrapper">
-  <div class="page-width">
+  <div class="page-width page-width--narrow">
     <div class="section-header-installation">
       <h2 class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.step_number }}</h2>
-      <div class="page-width--narrow">
-        <div class="grid grid--2-col step-inner">
-          <div class="grid__item step-inner-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            {% if section.settings.image != blank %}
-              <img
-                src="{{ section.settings.image | image_url }}"
-                alt="{{ section.settings.image.alt }}"
-                loading="lazy"
-                height=""
-                width="">
-            {% else %}
-              {{ 'image' | placeholder_svg_tag }}
-            {% endif %}
-          </div>
-          <div class="grid__item step-inner-content">
-            <h3 class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-              {{ section.settings.heading }}
-            </h3>
-            <ul class="steps">
-              {% for block in section.blocks %}
-                {% case block.type %}
-                  {% when 'step' %}
-                  <li class="step-item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"{% if settings.animations_reveal_on_scroll %}data-cascadestyle="--animation-order: {{ forloop.index }};"{% endif %}>
-                    {{ block.settings.step }}
-                  </li>
-                {% endcase %}
-              {% endfor %}
-            </ul>
-          </div>
+      <div class="grid grid--2-col step-inner">
+        <div class="grid__item step-inner-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          {% if section.settings.image != blank %}
+            <img
+              src="{{ section.settings.image | image_url }}"
+              alt="{{ section.settings.image.alt }}"
+              loading="lazy"
+              height=""
+              width="">
+          {% else %}
+            {{ 'image' | placeholder_svg_tag }}
+          {% endif %}
+        </div>
+        <div class="grid__item step-inner-content">
+          <h3 class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {{ section.settings.heading }}
+          </h3>
+          <ul class="steps">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'step' %}
+                <li class="step-item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"{% if settings.animations_reveal_on_scroll %}data-cascadestyle="--animation-order: {{ forloop.index }};"{% endif %}>
+                  {{ block.settings.step }}
+                </li>
+              {% endcase %}
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
