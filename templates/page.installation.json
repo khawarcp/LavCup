@@ -115,9 +115,9 @@
         "70a488c7-3246-4ee9-ae00-9dc91bfa4052"
       ],
       "settings": {
-        "step_number": "Step 1",
+        "step_number": "Step <span>1<\/span>",
         "image": "shopify:\/\/shop_images\/Step_1.jpg",
-        "heading": "Secure Wall Mount to Wall",
+        "heading": "Secure Wall Mount to <span>Wall<\/span>",
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -150,9 +150,9 @@
         "b2683fe8-51fc-4e48-8b3b-c0d1b3978e73"
       ],
       "settings": {
-        "step_number": "Step 2",
+        "step_number": "Step <span>2<\/span>",
         "image": "shopify:\/\/shop_images\/Step_2.jpg",
-        "heading": "Insert Art & Windows",
+        "heading": "Insert Art & <span>Windows<\/span>",
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -192,9 +192,9 @@
         "91acfb5b-df12-4cf8-94e4-ab70b339306d"
       ],
       "settings": {
-        "step_number": "Step 3",
+        "step_number": "Step <span>3<\/span>",
         "image": "shopify:\/\/shop_images\/Step_3.jpg",
-        "heading": "Lavcup on Wall Mount",
+        "heading": "Lavcup on Wall <span>Mount<\/span>",
         "padding_top": 76,
         "padding_bottom": 72
       }
