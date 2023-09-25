@@ -2,11 +2,11 @@
 
 <section class="section-{{ section.id }}-padding steps-wrapper">
   <div class="page-width">
-    <div class="section-header-installation center ">
+    <div class="section-header-installation">
       <h2 class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.step_number }}</h2>
       <div class="page-width--narrow">
-        <div class="step-inner">
-          <div class="step-inner-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <div class="grid grid--2-col step-inner">
+          <div class="grid__item step-inner-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             {% if section.settings.image != blank %}
               <img
                 src="{{ section.settings.image | image_url }}"
@@ -18,7 +18,7 @@
               {{ 'image' | placeholder_svg_tag }}
             {% endif %}
           </div>
-          <div class="step-inner-content">
+          <div class="grid__item step-inner-content">
             <h3 class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
               {{ section.settings.heading }}
             </h3>
