@@ -63,6 +63,7 @@
       "type": "installation-steps",
       "settings": {
         "step_number": "Step 1",
+        "image": "shopify:\/\/shop_images\/Step_1.jpg",
         "heading": "Secure Wall Mount to Wall",
         "padding_top": 72,
         "padding_bottom": 72
