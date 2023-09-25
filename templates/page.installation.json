@@ -161,6 +161,7 @@
       "type": "installation-steps",
       "settings": {
         "step_number": "Step 3",
+        "image": "shopify:\/\/shop_images\/Step_3.jpg",
         "heading": "Lavcup on Wall Mount",
         "padding_top": 76,
         "padding_bottom": 72
