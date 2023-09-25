@@ -15,6 +15,25 @@
   padding-left: 0;
 }
 
+.product__description p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28.8px;
+}
+
+.product__description p strong {
+  font-weight: 400;
+}
+
+.product__description p:last-child {
+  font-size: 18px;
+}
+
+.product__description p a {
+  color: #FFD913;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 750px) {
   .product__column-sticky {
     display: block;
