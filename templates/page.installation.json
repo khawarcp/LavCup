@@ -150,11 +150,11 @@
         "b2683fe8-51fc-4e48-8b3b-c0d1b3978e73"
       ],
       "settings": {
-        "step_number": "Step <span>2<\/span>",
+        "step_number": "Step 2",
         "image": "shopify:\/\/shop_images\/Step_2.jpg",
-        "heading": "Insert Art & <span>Windows<\/span>",
-        "padding_top": 72,
-        "padding_bottom": 72
+        "heading": "Insert Art & Windows",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "f2645622-a172-4a0d-809a-65f6bc273467": {
