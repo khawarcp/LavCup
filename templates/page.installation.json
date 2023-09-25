@@ -159,6 +159,38 @@
     },
     "f2645622-a172-4a0d-809a-65f6bc273467": {
       "type": "installation-steps",
+      "blocks": {
+        "f72b8eb2-291b-4b12-8c97-6c368b496880": {
+          "type": "step",
+          "settings": {
+            "step": "Continue to hold art and window in place"
+          }
+        },
+        "a5c17136-74e0-45bc-bfb5-8c1150940865": {
+          "type": "step",
+          "settings": {
+            "step": "From top-down approach insert LivCup Shelf into the tabs"
+          }
+        },
+        "84cbae68-dea4-4d01-b6f9-fbd2a29ff103": {
+          "type": "step",
+          "settings": {
+            "step": "Push downward until you hear it click into place"
+          }
+        },
+        "91acfb5b-df12-4cf8-94e4-ab70b339306d": {
+          "type": "step",
+          "settings": {
+            "step": "Done!"
+          }
+        }
+      },
+      "block_order": [
+        "f72b8eb2-291b-4b12-8c97-6c368b496880",
+        "a5c17136-74e0-45bc-bfb5-8c1150940865",
+        "84cbae68-dea4-4d01-b6f9-fbd2a29ff103",
+        "91acfb5b-df12-4cf8-94e4-ab70b339306d"
+      ],
       "settings": {
         "step_number": "Step 3",
         "image": "shopify:\/\/shop_images\/Step_3.jpg",
