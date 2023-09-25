@@ -245,10 +245,10 @@
     "contact": {
       "form": {
         "title": "Contact form",
-        "name": "Your Name",
-        "email": "Your Email",
+        "name": "Your name",
+        "email": "Your email",
         "phone": "Phone number",
-        "comment": "Your Message",
+        "comment": "Your message",
         "send": "Send Message",
         "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
         "error_heading": "Please adjust the following:"
