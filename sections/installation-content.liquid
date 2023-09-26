@@ -16,7 +16,7 @@
 <section class="section-{{ section.id }}-padding installation-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
   <div class="page-width">
     {% if section.settings.logo != blank %}
-      <div class="section-header-installation center">
+      <div class="section-header-installation center {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <img
           src="{{ section.settings.logo | image_url }}"
           loading="lazy"
