@@ -183,7 +183,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Bring_the_stadium_experience_home.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "bottom-right",
         "show_text_box": true,
         "desktop_content_alignment": "center",
