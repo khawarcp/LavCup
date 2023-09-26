@@ -16,9 +16,12 @@
         "left_image": "shopify:\/\/shop_images\/Left_Column_Image.jpg",
         "link_text": "More Image",
         "link_url": "shopify:\/\/products\/the-lavcup",
+        "custom_product": "the-lavcup",
         "right_image": "shopify:\/\/shop_images\/Right_Column_Image.jpg",
         "right_link_text": "More Image",
-        "right_link_url": ""
+        "right_link_url": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
