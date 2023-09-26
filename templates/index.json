@@ -78,12 +78,79 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "cffffa23-9037-418e-9844-ff8e7df6d446": {
+      "type": "index-brands",
+      "blocks": {
+        "2fd3836a-a9bc-4f8a-b103-61fcf0d4f67a": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Boston_Celtics.png",
+            "logo_link": ""
+          }
+        },
+        "46aa4f22-8d8d-4890-9202-b0415bf38e36": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Bit.png",
+            "logo_link": ""
+          }
+        },
+        "85e4b6e6-333a-4a2b-8df3-803aae3ff8d9": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Washington_Nationals.png",
+            "logo_link": ""
+          }
+        },
+        "0f6bac3f-1255-4462-8f14-120eb75d3a60": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Washington_Football.png",
+            "logo_link": ""
+          }
+        },
+        "440dc3fd-8c54-4332-b42c-d8a9ceb4f1c2": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Texas_A_M.png",
+            "logo_link": ""
+          }
+        },
+        "5849c8a0-ad14-4373-94ae-b32b357da8f0": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Seattle_Seahawks.png",
+            "logo_link": ""
+          }
+        },
+        "4d57f4fd-f1e0-4f07-94ba-fab303e7da86": {
+          "type": "stadium",
+          "settings": {
+            "logo_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "2fd3836a-a9bc-4f8a-b103-61fcf0d4f67a",
+        "46aa4f22-8d8d-4890-9202-b0415bf38e36",
+        "85e4b6e6-333a-4a2b-8df3-803aae3ff8d9",
+        "0f6bac3f-1255-4462-8f14-120eb75d3a60",
+        "440dc3fd-8c54-4332-b42c-d8a9ceb4f1c2",
+        "5849c8a0-ad14-4373-94ae-b32b357da8f0",
+        "4d57f4fd-f1e0-4f07-94ba-fab303e7da86"
+      ],
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "e650c66a-5d5e-475c-aeba-3d950ac39436",
     "be926b55-e073-4c77-a1d1-bb49375b833d",
     "c54432b3-7e12-4233-bb73-a3491fceb087",
-    "0581f459-20ca-4ffc-b0c0-58081a1ca09c"
+    "0581f459-20ca-4ffc-b0c0-58081a1ca09c",
+    "cffffa23-9037-418e-9844-ff8e7df6d446"
   ]
 }
