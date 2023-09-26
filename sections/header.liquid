@@ -163,7 +163,9 @@
       endif
 
       if section.settings.logo_position == 'top-center' or section.settings.menu == blank
+        if section.settings.show_search
         render 'header-search', input_id: 'Search-In-Modal-1'
+        endif
       endif
     -%}
 
@@ -295,7 +297,12 @@
           </localization-form>
         {%- endif -%}
       </div>
-      {% render 'header-search', input_id: 'Search-In-Modal' %}
+
+      {%- liquid
+          if section.settings.show_search
+          render 'header-search', input_id: 'Search-In-Modal'
+          endif
+       -%}
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
@@ -319,6 +326,7 @@
         {%- endcase -%}
       {%- endfor -%}
 
+      {%- if settings.cart_type == "notification" or settings.cart_type == 'drawer' -%}
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
@@ -337,6 +345,13 @@
           </div>
         {%- endif -%}
       </a>
+    {%- endif -%}
+
+      {% if section.settings.buy_now_text != blank and section.settings.show_buy_now %}
+      <a href="{{ section.settings.buy_now_link | default: '#'  }}" class="button buy-now-header small-hide">
+        {{ section.settings.buy_now_text }}
+    </a>
+      {% endif %}
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
@@ -590,6 +605,23 @@
       "id": "show_search",
       "default": false,
       "label": "Display Search"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_buy_now",
+      "default": true,
+      "label": "Display Buy Now Button"
+    },
+    {
+      "type": "text",
+      "id": "buy_now_text",      
+      "label": "Button Text",
+      "default": "Buy Now"
+    },
+    {
+      "type": "url",
+      "id": "buy_now_link",      
+      "label": "Button Link"
     },
     {
       "type": "header",
