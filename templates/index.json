@@ -35,14 +35,14 @@
           "type": "fact",
           "settings": {
             "heading": "95%+",
-            "text": "fans use the bathroom during an event"
+            "text": "fans use the bathroom \nduring an event"
           }
         },
         "8357f22c-7b57-45f2-8c21-143191dc9437": {
           "type": "fact",
           "settings": {
             "heading": "85%+",
-            "text": "male and female fans carry items* into bathroom"
+            "text": "male and female fans carry \nitems* into bathroom"
           }
         },
         "ca41fb8f-23d6-44db-93b6-a94b26ec26eb": {
@@ -67,6 +67,8 @@
         "af6f3107-3b8c-43a8-b7e9-dfc3982ceac2"
       ],
       "settings": {
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     }
   },
