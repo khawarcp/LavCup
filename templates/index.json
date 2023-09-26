@@ -8,9 +8,22 @@
         "heading": "Hygienic Shelves, <span>Dynamic <\/span> Advertising",
         "text": "<p>LavCup® is a patented drink holder platform that incorporates advertising messaging, while providing sports, entertainment and other venue guests with an appreciated and desired amenity.<\/p><h5><a href=\"\/products\/the-lavcup\" title=\"The LavCup\">Buy Now<\/a><\/h5>"
       }
+    },
+    "be926b55-e073-4c77-a1d1-bb49375b833d": {
+      "type": "index-product",
+      "settings": {
+        "left_heading": "Extending The Stadium <span>Experience<\/span>, To The Home.",
+        "left_image": "shopify:\/\/shop_images\/Left_Column_Image.jpg",
+        "link_text": "More Image",
+        "link_url": "shopify:\/\/products\/the-lavcup",
+        "right_image": "shopify:\/\/shop_images\/Right_Column_Image.jpg",
+        "right_link_text": "More Image",
+        "right_link_url": ""
+      }
     }
   },
   "order": [
-    "e650c66a-5d5e-475c-aeba-3d950ac39436"
+    "e650c66a-5d5e-475c-aeba-3d950ac39436",
+    "be926b55-e073-4c77-a1d1-bb49375b833d"
   ]
 }
