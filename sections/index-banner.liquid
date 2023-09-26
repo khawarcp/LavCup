@@ -1,7 +1,9 @@
+<link rel="stylesheet" href="{{ 'hero-banner.css' | asset_url }}">
 <section class="hero-banner-wrapper" >
     <div class="page-width">
-        <div class="hero-banner" style="background-image:url(); backrground-color:#F0F0F0;">
-            <div class="hero-banner-content">
+        <div class="hero-banner background-image" style="background-image:url({{ section.settings.background_image | image_url }}); backrground-color:#F0F0F0;">
+            <div class="grid banner-content-wrapper">
+                <div class="hero-banner-content">
                 <h1 class="banner-heading {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"> {{ section.settings.heading }} </h1>
                 <div class="rte banner-text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                     {{ section.settings.text }}
@@ -13,6 +15,7 @@
                     {% else %}
                         {{ 'image' | placeholder_svg_tag }}
                 {% endif %}
+            </div>
             </div>
         </div>
     </div>
