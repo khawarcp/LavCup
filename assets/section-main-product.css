@@ -42,6 +42,16 @@
   text-decoration: none;
 }
 
+.product .price__container {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36.4px;
+}
+
+.product-form__buttons button {
+  font-weight: 500;
+}
+
 @media screen and (min-width: 750px) {
   .product__column-sticky {
     display: block;
