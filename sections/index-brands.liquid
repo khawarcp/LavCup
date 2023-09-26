@@ -17,7 +17,7 @@
         <div class="grid">
             {% for block in section.blocks %}
                 {% case block.type %}
-                    {% when 'brand' %}                      
+                    {% when 'stadium' %}                      
                         <div class="grid__item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                         {% if settings.animations_reveal_on_scroll %}
                             data-cascade
@@ -41,7 +41,7 @@
 
 {% schema %}
     {
-        "name": "Brands",
+        "name": "Stadiums",
         "settings": [
             {
                 "type": "header",
@@ -68,8 +68,8 @@
         ],
         "blocks": [
         {
-            "type": "brand",
-            "name": "Brand",
+            "type": "stadium",
+            "name": "Stadium",
             "settings": [
                 {
                     "type": "image_picker",
@@ -86,7 +86,7 @@
     ],
     "presets": [
         {
-            "name": "Brands"
+            "name": "Stadiums"
         }
     ]
     }
