@@ -16,9 +16,16 @@
         "left_image": "shopify:\/\/shop_images\/Left_Column_Image.jpg",
         "link_text": "More Image",
         "link_url": "shopify:\/\/products\/the-lavcup",
+        "product_heading": "The Antibacterial Shelf Lavcup",
+        "right_text_1": "<p><strong>Shelf Dimensions:<\/strong>7.75\"H x 6\"W x 5.25\"D<br\/><strong>Window Frame:<\/strong>6\"H x 5.25\"W<\/p>",
+        "right_text_2": "<p>Antibacterial shelf with non-slip surface and built-in customizable messaging. Please reference our installation guide on how to best install your LavCup.<\/p>",
+        "custom_product": "the-lavcup",
         "right_image": "shopify:\/\/shop_images\/Right_Column_Image.jpg",
-        "right_link_text": "More Image",
-        "right_link_url": ""
+        "right_image_bg": "shopify:\/\/shop_images\/Right_Column_Background_Image.png",
+        "right_link_text": "Installation Guide",
+        "right_link_url": "shopify:\/\/pages\/how-to-install",
+        "padding_top": 60,
+        "padding_bottom": 36
       }
     }
   },
