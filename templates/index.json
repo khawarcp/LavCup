@@ -127,6 +127,7 @@
         "4d57f4fd-f1e0-4f07-94ba-fab303e7da86": {
           "type": "stadium",
           "settings": {
+            "logo": "shopify:\/\/shop_images\/Cardinals.png",
             "logo_link": ""
           }
         }
