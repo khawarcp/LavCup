@@ -1,24 +1,20 @@
 {%- style -%}
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    .divider-wrapper .section-divider {
+        border-top: 1px solid #E9E9E9;
+        display: block !important;
+      margin-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      margin-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
   
     @media screen and (min-width: 750px) {
-      .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top }}px;
-        padding-bottom: {{ section.settings.padding_bottom }}px;
+      .divider-wrapper .section-divider{
+        margin-top: {{ section.settings.padding_top }}px;
+        margin-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
   {%- endstyle -%}
-
-<style>
-    .section-divider{
-        border-top: 1px solid #E9E9E9;
-        display: block !important;
-    }
-</style>  
-<div class="section{{ section.id }}-padding {% if section.settings.show_full %}page-width{% endif %}">
+ 
+<div class="divider-wrapper {% unless section.settings.show_full %}page-width{% endunless %}">
     <div class="section-divider"></div>
 </div>
 
@@ -43,7 +39,7 @@
                 "max": 100,
                 "step": 4,
                 "unit": "px",
-                "label": "t:sections.all.padding.padding_top",
+                "label": "Margin Top",
                 "default": 60
             }, {
                 "type": "range",
@@ -52,7 +48,7 @@
                 "max": 100,
                 "step": 4,
                 "unit": "px",
-                "label": "t:sections.all.padding.padding_bottom",
+                "label": "Margin Bottom",
                 "default": 60
             }
         ],
