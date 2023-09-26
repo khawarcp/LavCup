@@ -1,4 +1,9 @@
-<link rel="stylesheet" href="{{ 'index-facts.css' | asset_url }}">
+<link rel="stylesheet" href="{{ 'index-brands-stadiums.css' | asset_url }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" defer></script>
+<script src="{{ 'index-brands-stadiums.js' | asset_url }}" defer></script>
 {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -14,16 +19,15 @@
   {%- endstyle -%}
 <section class="section-{{ section.id }}-padding brands-wrapper">
     <div class="page-width">
-        <div class="grid">
+        <div class="stadium-wrapper stadium-slider">
             {% for block in section.blocks %}
                 {% case block.type %}
                     {% when 'stadium' %}                      
-                        <div class="grid__item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                        <div class="stadium-item" {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                         {% if settings.animations_reveal_on_scroll %}
                             data-cascade
                             style="--animation-order: {{ forloop.index }};"
                         {% endif %}>
-                            <div class="brand-item">
                                 <a href="{{ block.settings.logo_link }}">
                                 {% if block.settings.logo != blank %}
                                 <img src="{{ block.settings.logo | image_url }}" loading="lazy" alt="{{ block.settings.logo.alt }}" height="" width="">
@@ -31,7 +35,6 @@
                                     {{ 'image' | placeholder_svg_tag }}
                                 {% endif %}
                                 </a>
-                            </div>
                         </div>
                 {% endcase %}
             {% endfor %}
