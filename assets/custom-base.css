@@ -11,6 +11,12 @@ h1 span, h2 span, h2 a, h3 span {
   color: inherit;
 }
 
+.background-image{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 li,p{
 font-weight: 300;
 }

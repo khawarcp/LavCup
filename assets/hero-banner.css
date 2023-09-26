@@ -1,0 +1,24 @@
+.hero-banner-content {
+    width: 55%;
+}
+
+.hero-banner-image {
+    width: 45%;
+}
+
+.hero-banner {
+    border-radius: 10px;
+}
+
+.hero-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 600px;
+}
+
+.banner-heading {
+    font-size: 54px;
+    line-height: 70.2px;
+}
