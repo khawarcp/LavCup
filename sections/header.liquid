@@ -348,7 +348,7 @@
     {%- endif -%}
 
       {% if section.settings.buy_now_text != blank and section.settings.show_buy_now %}
-      <a href="{{ section.settings.buy_now_link | default: '#'  }}" class="button buy-now-header small-hide">
+      <a href="{{ section.settings.buy_now_link | default: '#'  }}" class="button buy-now-header">
         {{ section.settings.buy_now_text }}
     </a>
       {% endif %}
