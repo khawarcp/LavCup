@@ -1,6 +1,24 @@
 <link rel="stylesheet" href="{{ 'index-product.css' | asset_url }}">
 <script src="{{ 'headings-color.js' | asset_url }}" defer></script>
 
+{{ 'quick-add.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+
+{%- style -%}
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+  
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+  {%- endstyle -%}
+
  <section class="section-{{ section.id }}-padding custom-product-wrapper" style="background-image: url({{ section.settings.right_image_bg | image_url }});">
     <div class="page-width">
         <div class="grid grid--2-col">
@@ -51,7 +69,7 @@
                         <div class="rte">
                             {{ section.settings.right_text_1 }}
                         </div>
-                        <a href="#" class="button button--secondary"> Add to cart </a>
+                        {% render 'add-to-cart-button', card_product: product, section_id: section.id %}
                     </div>
                     <div class="right-col-description">
                         <div class="rte">
@@ -66,6 +84,8 @@
         </div>
     </div>
  </section>
+
+ <span class="divider"></span>
 
 {% schema %}
     {

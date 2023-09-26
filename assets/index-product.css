@@ -77,3 +77,12 @@
     background-position: center right;
     background-repeat: no-repeat;
 }
+
+.right-col-description .rte p,
+.right-col-description .rte {
+    line-height: 33.6px;
+}
+
+.quick-add__submit{
+    min-width: 30% !important;
+}
