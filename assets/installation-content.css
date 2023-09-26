@@ -1,0 +1,22 @@
+.parts-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part-item:not(:last-child) {
+    border-right: 1px solid #E9E9E9;
+    padding: 0 12px;
+}
+
+.section-header-installation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}

@@ -283,7 +283,7 @@
         "type": "range",
         "id": "buttons_radius",
         "min": 0,
-        "max": 40,
+        "max": 100,
         "step": 2,
         "unit": "px",
         "label": "t:settings_schema.global.settings.corner_radius.label",

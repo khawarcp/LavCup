@@ -1,3 +1,50 @@
+h1{
+  font-weight: 600;
+}
+h1 span, h2 span, h2 a, h3 span {
+  color: #FFD913;
+}
+
+.policy h1 span,
+.policy h3 span,
+.policy h3 span{
+  color: inherit;
+}
+
+li,p{
+font-weight: 300;
+}
+
+a{
+  color: #FFD913;
+  text-decoration: none;
+}
+
 .yellow{
   color: #FFD913
+}
+
+.field__label{
+  color: #A1A0A0;
+}
+
+p.inline-richtext {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section-content ul > li {
+  background: url(/cdn/shop/files/li-tick.png) no-repeat left;
+  background-size: 20px;
+  padding-left: 30px;
+  background-position: 0px 15px;
 }
