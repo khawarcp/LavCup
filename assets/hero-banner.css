@@ -1,9 +1,10 @@
 .hero-banner-content {
-    width: 55%;
+    width: 60%;
+    padding: 45px;
 }
 
 .hero-banner-image {
-    width: 45%;
+    width: 40%;
 }
 
 .hero-banner {
@@ -21,4 +22,16 @@
 .banner-heading {
     font-size: 54px;
     line-height: 70.2px;
+    margin: 0;
+}
+
+.banner-text{
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.banner-text a {
+    font-weight: 600;
+    border-bottom: 1px solid;
 }
