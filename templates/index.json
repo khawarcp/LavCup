@@ -25,7 +25,11 @@
         "right_link_text": "Installation Guide",
         "right_link_url": "shopify:\/\/pages\/how-to-install",
         "padding_top": 60,
+<<<<<<< HEAD
         "padding_bottom": 36
+=======
+        "padding_bottom": 44
+>>>>>>> 5c9a51ec32f290e5d2f73f048c7767fe13a06817
       }
     }
   },
