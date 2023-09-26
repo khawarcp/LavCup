@@ -1,0 +1,98 @@
+
+ <section class="custom-product-wrapper">
+    <div class="page-width">
+        <div class="grid grid--2-col">
+            <div class="grid__item left-column">
+                <div class="left-column-inner">
+                    <div class="left-col-image">
+                        <img src="" alt="">
+                        <a href=""></a>
+                    </div>
+                    <div class="left-col-content">
+                       <h2></h2>
+                    </div>
+                </div>                
+            </div>
+            <div class="grid__item right-column">                
+            </div>
+        </div>
+    </div>
+ </section>
+{
+    "type": "header",
+    "content": "Right Column"
+},
+{
+    "type": "image_picker",
+    "id": "right_image",
+    "label": "Image"
+},
+{
+    "type": "text",
+    "id": "right_link_text",
+    "label": "Link Text",
+    "default": "More Image"
+},
+{
+    "type": "url",
+    "id": "right_link_url",
+    "label": "URL"
+}
+{% schema %}
+    {
+        "name": "Product",
+        "settings": [
+            {
+                "type": "header",
+                "content": "Left Column"
+            },
+            {
+                "type": "textarea",
+                "id": "left_heading",
+                "label": "Heading",
+                "default": "Extending The Stadium <span>Experience</span>, To The Home."
+            },
+            {
+                "type": "image_picker",
+                "id": "left_image",
+                "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "link_text",
+                "label": "Link Text",
+                "default": "More Image"
+            },
+            {
+                "type": "url",
+                "id": "link_url",
+                "label": "URL"
+            },
+            {
+                "type": "header",
+                "content": "Right Column"
+            },
+            {
+                "type": "image_picker",
+                "id": "right_image",
+                "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "right_link_text",
+                "label": "Link Text",
+                "default": "More Image"
+            },
+            {
+                "type": "url",
+                "id": "right_link_url",
+                "label": "URL"
+            }
+        ],
+        "presets": [
+            {
+            "name" : "Product"
+        }
+    ]
+    }
+{% endschema %}
