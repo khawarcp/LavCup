@@ -28,6 +28,14 @@
         "padding_bottom": 36
       }
     },
+    "c54432b3-7e12-4233-bb73-a3491fceb087": {
+      "type": "section-divider",
+      "settings": {
+        "show_full": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "0581f459-20ca-4ffc-b0c0-58081a1ca09c": {
       "type": "index-facts",
       "blocks": {
@@ -35,14 +43,14 @@
           "type": "fact",
           "settings": {
             "heading": "95%+",
-            "text": "fans use the bathroom during an event"
+            "text": "fans use the bathroom \nduring an event"
           }
         },
         "8357f22c-7b57-45f2-8c21-143191dc9437": {
           "type": "fact",
           "settings": {
             "heading": "85%+",
-            "text": "male and female fans carry items* into bathroom"
+            "text": "male and female fans carry \nitems* into bathroom"
           }
         },
         "ca41fb8f-23d6-44db-93b6-a94b26ec26eb": {
@@ -67,12 +75,132 @@
         "af6f3107-3b8c-43a8-b7e9-dfc3982ceac2"
       ],
       "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cffffa23-9037-418e-9844-ff8e7df6d446": {
+      "type": "index-brands",
+      "blocks": {
+        "2fd3836a-a9bc-4f8a-b103-61fcf0d4f67a": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Boston_Celtics.png",
+            "logo_link": ""
+          }
+        },
+        "46aa4f22-8d8d-4890-9202-b0415bf38e36": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Bit.png",
+            "logo_link": ""
+          }
+        },
+        "85e4b6e6-333a-4a2b-8df3-803aae3ff8d9": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Washington_Nationals.png",
+            "logo_link": ""
+          }
+        },
+        "0f6bac3f-1255-4462-8f14-120eb75d3a60": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Washington_Football.png",
+            "logo_link": ""
+          }
+        },
+        "440dc3fd-8c54-4332-b42c-d8a9ceb4f1c2": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Texas_A_M.png",
+            "logo_link": ""
+          }
+        },
+        "5849c8a0-ad14-4373-94ae-b32b357da8f0": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Seattle_Seahawks.png",
+            "logo_link": ""
+          }
+        },
+        "4d57f4fd-f1e0-4f07-94ba-fab303e7da86": {
+          "type": "stadium",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Cardinals.png",
+            "logo_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "2fd3836a-a9bc-4f8a-b103-61fcf0d4f67a",
+        "46aa4f22-8d8d-4890-9202-b0415bf38e36",
+        "85e4b6e6-333a-4a2b-8df3-803aae3ff8d9",
+        "0f6bac3f-1255-4462-8f14-120eb75d3a60",
+        "440dc3fd-8c54-4332-b42c-d8a9ceb4f1c2",
+        "5849c8a0-ad14-4373-94ae-b32b357da8f0",
+        "4d57f4fd-f1e0-4f07-94ba-fab303e7da86"
+      ],
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "67758c34-3cbc-4c37-a0aa-ce55697efa6a": {
+      "type": "image-banner",
+      "blocks": {
+        "e62ff418-fd56-4013-a29e-cc2a72c228c6": {
+          "type": "text",
+          "settings": {
+            "text": "Antibacterial Shelf",
+            "text_style": "subtitle"
+          }
+        },
+        "template--21049157124376__67758c34-3cbc-4c37-a0aa-ce55697efa6a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bring The Stadium Experience Home",
+            "heading_size": "h2"
+          }
+        },
+        "template--21049157124376__67758c34-3cbc-4c37-a0aa-ce55697efa6a-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Buy Lavcup",
+            "button_link_1": "shopify:\/\/products\/the-lavcup",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "e62ff418-fd56-4013-a29e-cc2a72c228c6",
+        "template--21049157124376__67758c34-3cbc-4c37-a0aa-ce55697efa6a-heading-1",
+        "template--21049157124376__67758c34-3cbc-4c37-a0aa-ce55697efa6a-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bring_the_stadium_experience_home.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "e650c66a-5d5e-475c-aeba-3d950ac39436",
     "be926b55-e073-4c77-a1d1-bb49375b833d",
-    "0581f459-20ca-4ffc-b0c0-58081a1ca09c"
+    "c54432b3-7e12-4233-bb73-a3491fceb087",
+    "0581f459-20ca-4ffc-b0c0-58081a1ca09c",
+    "cffffa23-9037-418e-9844-ff8e7df6d446",
+    "67758c34-3cbc-4c37-a0aa-ce55697efa6a"
   ]
 }
