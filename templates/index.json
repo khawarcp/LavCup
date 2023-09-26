@@ -16,7 +16,7 @@
         "left_image": "shopify:\/\/shop_images\/Left_Column_Image.jpg",
         "link_text": "More Image",
         "link_url": "shopify:\/\/products\/the-lavcup",
-        "product_heading": "The Antibacterial Shelf <span>Lavcup<\/span>",
+        "product_heading": "The Antibacterial Shelf Lavcup",
         "right_text_1": "<p><strong>Shelf Dimensions:<\/strong>7.75\"H x 6\"W x 5.25\"D<br\/><strong>Window Frame:<\/strong>6\"H x 5.25\"W<\/p>",
         "right_text_2": "<p>Antibacterial shelf with non-slip surface and built-in customizable messaging. Please reference our installation guide on how to best install your LavCup.<\/p>",
         "custom_product": "the-lavcup",
@@ -27,10 +27,52 @@
         "padding_top": 60,
         "padding_bottom": 36
       }
+    },
+    "0581f459-20ca-4ffc-b0c0-58081a1ca09c": {
+      "type": "index-facts",
+      "blocks": {
+        "df7d9114-8fc4-490a-b182-52c315379380": {
+          "type": "fact",
+          "settings": {
+            "heading": "95%+",
+            "text": "fans use the bathroom during an event"
+          }
+        },
+        "8357f22c-7b57-45f2-8c21-143191dc9437": {
+          "type": "fact",
+          "settings": {
+            "heading": "85%+",
+            "text": "male and female fans carry items* into bathroom"
+          }
+        },
+        "ca41fb8f-23d6-44db-93b6-a94b26ec26eb": {
+          "type": "fact",
+          "settings": {
+            "heading": "70%",
+            "text": "Positively associated the amenity with the brand being advertised"
+          }
+        },
+        "af6f3107-3b8c-43a8-b7e9-dfc3982ceac2": {
+          "type": "fact",
+          "settings": {
+            "heading": "62%",
+            "text": "Recalled the brand being advertised on LavCup"
+          }
+        }
+      },
+      "block_order": [
+        "df7d9114-8fc4-490a-b182-52c315379380",
+        "8357f22c-7b57-45f2-8c21-143191dc9437",
+        "ca41fb8f-23d6-44db-93b6-a94b26ec26eb",
+        "af6f3107-3b8c-43a8-b7e9-dfc3982ceac2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "e650c66a-5d5e-475c-aeba-3d950ac39436",
-    "be926b55-e073-4c77-a1d1-bb49375b833d"
+    "be926b55-e073-4c77-a1d1-bb49375b833d",
+    "0581f459-20ca-4ffc-b0c0-58081a1ca09c"
   ]
 }
