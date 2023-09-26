@@ -23,18 +23,18 @@
         <div class="grid grid--2-col">
             <div class="grid__item left-column">
                 <div class="left-column-inner">
-                    <div class="left-col-image">
+                    <div class="left-col-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                         {% if section.settings.left_image != blank %}
                             <img src="{{ section.settings.left_image | image_url }}" alt="{{ section.settings.left_image.alt }}" loading="lazy" height="" width="">
                         {% else %}
                             {{ 'image' | placeholder_svg_tag }}
                         {% endif %}
                         {% if section.settings.link_text != blank or section.settings.link_url != blank %}                            
-                        <a href="{{ section.settings.link_url }}" class="button more-images"> {{ section.settings.link_text }} </a>
+                        <a href="{{ section.settings.link_url }}" class="button more-images {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"> {{ section.settings.link_text }} </a>
                         {% endif %}
                     </div>
                     {% if section.settings.left_heading != blank %}                        
-                    <div class="left-col-content">
+                    <div class="left-col-content {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                        <h2> {{ section.settings.left_heading }} </h2>
                     </div>
                     {% endif %}
@@ -42,14 +42,14 @@
             </div>
             <div class="grid__item right-column">  
                 <div class="right-column-inner">
-                    <div class="right-col-image">
+                    <div class="right-col-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                         {% if section.settings.right_image != blank %}
                             <img src="{{ section.settings.right_image | image_url }}" alt="{{ section.settings.right_image.alt }}" loading="lazy" height="" width="">
                         {% else %}
                             {{ 'image' | placeholder_svg_tag }}
                         {% endif %}
                     </div>
-                    <div class="right-col-product">
+                    <div class="right-col-product {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                         {% assign product = all_products[section.settings.custom_product] %}
                         <div class="title-price">
                             <h2> {{- section.settings.product_heading -}} </h2>
@@ -65,17 +65,17 @@
                                </h3>
                             </div>
                         </div>                      
-                        <div class="rte">
+                        <div class="rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                             {{ section.settings.right_text_1 }}
                         </div>
                         {% render 'add-to-cart-button', card_product: product, section_id: section.id %}
                     </div>
                     <div class="right-col-description">
-                        <div class="rte">
+                        <div class="rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                             {{ section.settings.right_text_2 }}
                         </div>
                         {% if section.settings.right_link_text != blank or section.settings.right_link_url != blank %}                            
-                        <a href="{{ section.settings.right_link_url }}" class="button"> {{ section.settings.right_link_text }} </a>
+                        <a href="{{ section.settings.right_link_url }}" class="button {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"> {{ section.settings.right_link_text }} </a>
                         {% endif %}
                     </div>
                 </div>              

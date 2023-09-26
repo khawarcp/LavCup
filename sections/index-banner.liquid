@@ -10,7 +10,7 @@
             </div>
             <div class="hero-banner-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                 {% if section.settings.image != blank %}
-                <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}" width="" height="">
+                <img class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}" width="" height="">
                     {% else %}
                         {{ 'image' | placeholder_svg_tag }}
                 {% endif %}
