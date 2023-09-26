@@ -29,6 +29,10 @@
   font-size: 18px;
 }
 
+.product__title h1 {
+  text-transform: uppercase;
+}
+
 .shopify-payment-button__button {
   text-transform: capitalize;
 }
