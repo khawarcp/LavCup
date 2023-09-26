@@ -18,26 +18,7 @@
         </div>
     </div>
  </section>
-{
-    "type": "header",
-    "content": "Right Column"
-},
-{
-    "type": "image_picker",
-    "id": "right_image",
-    "label": "Image"
-},
-{
-    "type": "text",
-    "id": "right_link_text",
-    "label": "Link Text",
-    "default": "More Image"
-},
-{
-    "type": "url",
-    "id": "right_link_url",
-    "label": "URL"
-}
+
 {% schema %}
     {
         "name": "Product",
@@ -71,6 +52,11 @@
             {
                 "type": "header",
                 "content": "Right Column"
+            },
+            {
+                "type": "product",
+                "id": "custom_product",
+                "label": "Prdouct"
             },
             {
                 "type": "image_picker",
