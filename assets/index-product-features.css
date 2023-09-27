@@ -39,7 +39,8 @@
 }
 
 .product-features {
-    padding-bottom: 250px !important;
+    padding-bottom: 275px !important;
+    overflow: hidden;
 }
 
 .feature-text p {
@@ -153,10 +154,10 @@
 .bottom-middle-text {
     text-align: center;
     position: relative;
-    bottom: -130px;
+    bottom: -140px;
 }
 
 .bottom-middle-text::before {
-    top: -50px;
+    top: -60px;
     left: 45%;
 }

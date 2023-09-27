@@ -14,18 +14,18 @@
   {%- endstyle -%}
 <section class="section-{{ section.id }}-padding product-features">
     <div class="page-width">
-        <div class="section-header">
+        <div class="section-header {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <h2> {{ section.settings.heading }} </h2>
         </div>
         <div class="product-features-inner">
-            <div class="product-main-image">
+            <div class="product-main-image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                 {% if section.settings.main_image != blank %}                    
                     <img src="{{ section.settings.main_image | image_url }}" alt="{{ section.settings.main_image.alt }}" loading="lazy" height="579" width="322">
                 {% else %}
                     {{ 'image' | placeholder_svg_tag }}
                 {% endif %}
             </div>
-            <div class="feature-text-content top-content">
+            <div class="feature-text-content top-content {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                 <div class="feature-text top-left-text">
                     {{ section.settings.top_left_text }}
                 </div>
@@ -33,7 +33,7 @@
                     {{ section.settings.top_right_text }}
                 </div>
             </div>
-            <div class="feature-text-content middle-content">
+            <div class="feature-text-content middle-content {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                 <div class="feature-text middle-left-text">
                     {{ section.settings.middle_left_text }}
                 </div>
@@ -41,7 +41,7 @@
                     {{ section.settings.middle_right_text }}
                 </div>
             </div>
-            <div class="feature-text-content bottom-content">
+            <div class="feature-text-content bottom-content {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                 <div class="feature-text bottom-left-text">
                     {{ section.settings.bottom_left_text }}
                 </div>

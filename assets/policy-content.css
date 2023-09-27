@@ -18,3 +18,15 @@ table th {
     text-align: left;
     font-size: 21px;
 }
+
+@media screen and (max-width: 767px){
+  table th {
+    font-size: 1.5rem;
+}
+table td, table th{
+  width: unset;
+}
+.scrollable-wrapper th, .scrollable-wrapper td {
+  width: unset;
+}
+}
