@@ -13,3 +13,14 @@
 .page-bg h1 span {
     color: #FFD913;
 }
+
+@media screen and (max-width: 991px) {
+    .page-bg {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .page-bg {
+        height: 150px;
+    }
+}

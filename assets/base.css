@@ -305,7 +305,7 @@ h5,
 
 h1,
 .h1 {
-  font-size: calc(var(--font-heading-scale) * 3.2rem);
+  font-size: calc(var(--font-heading-scale) * 2.5rem);
 }
 
 @media only screen and (min-width: 750px) {
@@ -329,7 +329,7 @@ h2,
 
 h3,
 .h3 {
-  font-size: calc(var(--font-heading-scale) * 2.4rem);
+  font-size: calc(var(--font-heading-scale) * 2rem);
 }
 
 @media only screen and (min-width: 750px) {
@@ -343,12 +343,12 @@ h4,
 .h4 {
   font-family: var(--font-heading-family);
   font-style: var(--font-heading-style);
-  font-size: calc(var(--font-heading-scale) * 2rem);
+  font-size: calc(var(--font-heading-scale) * 1.8rem);
 }
 
 h5,
 .h5 {
-  font-size: calc(var(--font-heading-scale) * 1.7rem);
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
 }
 
 @media only screen and (min-width: 750px) {
@@ -3513,5 +3513,29 @@ details-disclosure > details {
 
   .animate--hover-vertical-lift .button:not([disabled]).button--secondary:hover:after {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .page-width--narrow {
+    max-width: 80.8rem;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    h1, .h1 {
+      font-size: calc(var(--font-heading-scale) * 3rem);
+  }
+  h3, .h3 {
+    font-size: calc(var(--font-heading-scale) * 2.2rem);
+}
+body {
+  font-size: 1.8rem;
+}
+}
+
+@media screen and (max-width: 767px) {
+  table:not([class]) {
+    font-size: 1.3rem;
   }
 }

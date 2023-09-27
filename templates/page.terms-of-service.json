@@ -10,8 +10,8 @@
     "terms-of-service-content": {
       "type": "terms-of-service-content",
       "settings": {
-        "padding_top": 72,
-        "padding_bottom": 72
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
