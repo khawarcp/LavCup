@@ -1,3 +1,108 @@
 .product-features .section-header {
     text-align: center;
 }
+
+.product-main-image img {
+    margin: 0 auto;
+}
+
+.product-main-image {
+    position: relative;
+}
+
+.product-main-image::before {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-image: url(https://cdn.shopify.com/s/files/1/0825/6222/0312/files/Product_Features_Ring.png?v=1695813863);
+    height: 542px;
+}
+
+.feature-text {
+    width: 314px;
+}
+
+.feature-text h4 {
+    margin: 0;
+}
+
+.product-features {
+    padding-bottom: 250px !important;
+}
+
+.feature-text p {
+    font-size: 17px;
+    line-height: 27.8px;
+    margin: 0;
+}
+
+.feature-text-content {
+    content: '';
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.middle-content {
+    top: 60%;
+    left: 0;
+}
+
+.bottom-content {
+    bottom: -25%;
+    left: 0;
+}
+
+.bottom-left-text,
+.middle-left-text,
+.top-left-text {
+    text-align: right;
+}
+
+.product-features-inner {
+    position: relative;
+}
+
+.top-content {
+    top: 27%;
+    left: 0px;
+}
+
+.top-left-text {
+    left: -40px;
+    position: relative;
+}
+
+.top-right-text {
+    position: relative;
+    right: -30px;
+}
+
+.feature-text::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0825/6222/0312/files/feature-dot.svg?v=1695817102);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top-left-text::before {
+    right: -50px;
+    bottom: -35px;
+}
+.top-right-text::before {
+    left: -35px;
+    bottom: -20px;
+}

@@ -20,10 +20,37 @@
         <div class="product-features-inner">
             <div class="product-main-image">
                 {% if section.settings.main_image != blank %}                    
-                    <img src="{{ section.settings.main_image | image_url }}" alt="{{ section.settings.main_image.alt }}" loading="lazy" height="" width="">
+                    <img src="{{ section.settings.main_image | image_url }}" alt="{{ section.settings.main_image.alt }}" loading="lazy" height="579" width="322">
                 {% else %}
                     {{ 'image' | placeholder_svg_tag }}
                 {% endif %}
+            </div>
+            <div class="feature-text-content top-content">
+                <div class="feature-text top-left-text">
+                    {{ section.settings.top_left_text }}
+                </div>
+                <div class="feature-text top-right-text">
+                    {{ section.settings.top_right_text }}
+                </div>
+            </div>
+            <div class="feature-text-content middle-content">
+                <div class="feature-text middle-left-text">
+                    {{ section.settings.middle_left_text }}
+                </div>
+                <div class="feature-text middle-right-text">
+                    {{ section.settings.middle_right_text }}
+                </div>
+            </div>
+            <div class="feature-text-content bottom-content">
+                <div class="feature-text bottom-left-text">
+                    {{ section.settings.bottom_left_text }}
+                </div>
+                <div class="feature-text bottom-middle-text">
+                    {{ section.settings.bottom_middle_text }}
+                </div>
+                <div class="feature-text bottom-right-text">
+                    {{ section.settings.bottom_right_text }}
+                </div>
             </div>
         </div>
     </div>
