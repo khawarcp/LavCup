@@ -1,16 +1,16 @@
 $(document).ready(function(){
-    $('.stadium-slider').slick({
+    $('.testimonials-slider').slick({
         dots: false,
         infinite: true,
         speed: 300,
-        slidesToShow: 6,
+        slidesToShow: 3,
         autoplay: true,
         slidesToScroll: 1,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 2,
               slidesToScroll: 1,
               infinite: true,
               dots: true
@@ -20,7 +20,7 @@ $(document).ready(function(){
             breakpoint: 600,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 1
+              slidesToScroll: 2
             }
           },
           {

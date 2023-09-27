@@ -153,7 +153,7 @@
           "type": "text",
           "settings": {
             "text": "Antibacterial Shelf",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "template--21049157124376__67758c34-3cbc-4c37-a0aa-ce55697efa6a-heading-1": {
@@ -193,6 +193,72 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "d5fea8a6-effc-4b1c-9ef0-8f4466ee7ba9": {
+      "type": "index-testimonials",
+      "blocks": {
+        "5c5ac33e-1edc-43ba-9bea-355640029236": {
+          "type": "testimonials",
+          "settings": {
+            "post_comment": "<p>We looked at cup holder alternatives in the past, but never came across a product as sturdy and effective as LavCup.<\/p>",
+            "name": "Steve R",
+            "designation": "TD Garden"
+          }
+        },
+        "3c06072d-97a2-4b96-a465-d090fbf21d68": {
+          "type": "testimonials",
+          "settings": {
+            "post_comment": "<p>LavCup has become part of our building, and our fans appreciate and use them.<\/p>",
+            "name": "Jacob D",
+            "designation": "Seattle Seahawks"
+          }
+        },
+        "78e6d4f9-40b5-44bd-a004-3ce646f30a61": {
+          "type": "testimonials",
+          "settings": {
+            "post_comment": "<p>LavCup is my favorite product of the year! Why didn’t I think of this?<\/p>",
+            "name": "Jane Wells",
+            "designation": "CNBC"
+          }
+        },
+        "27976465-8242-4415-aba4-2a512b31d9eb": {
+          "type": "testimonials",
+          "settings": {
+            "post_comment": "<p>We looked at cup holder alternatives in the past, but never came across a product as sturdy and effective as LavCup.<\/p>",
+            "name": "Steve R",
+            "designation": "TD Garden"
+          }
+        },
+        "c21afe9a-825f-4fd7-8f5c-fede47b76643": {
+          "type": "testimonials",
+          "settings": {
+            "post_comment": "<p>LavCup has become part of our building, and our fans appreciate and use them.<\/p>",
+            "name": "Jacob D",
+            "designation": "Seattle Seahawks"
+          }
+        },
+        "ac5fa85b-e8a2-44bb-8d34-b18957c7feb8": {
+          "type": "testimonials",
+          "settings": {
+            "post_comment": "<p>LavCup is my favorite product of the year! Why didn’t I think of this?<\/p>",
+            "name": "Jane Wells",
+            "designation": "CNBC"
+          }
+        }
+      },
+      "block_order": [
+        "5c5ac33e-1edc-43ba-9bea-355640029236",
+        "3c06072d-97a2-4b96-a465-d090fbf21d68",
+        "78e6d4f9-40b5-44bd-a004-3ce646f30a61",
+        "27976465-8242-4415-aba4-2a512b31d9eb",
+        "c21afe9a-825f-4fd7-8f5c-fede47b76643",
+        "ac5fa85b-e8a2-44bb-8d34-b18957c7feb8"
+      ],
+      "settings": {
+        "heading": "Listen From Our Beloved <span>Clients<\/span>",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -201,6 +267,7 @@
     "c54432b3-7e12-4233-bb73-a3491fceb087",
     "0581f459-20ca-4ffc-b0c0-58081a1ca09c",
     "cffffa23-9037-418e-9844-ff8e7df6d446",
-    "67758c34-3cbc-4c37-a0aa-ce55697efa6a"
+    "67758c34-3cbc-4c37-a0aa-ce55697efa6a",
+    "d5fea8a6-effc-4b1c-9ef0-8f4466ee7ba9"
   ]
 }

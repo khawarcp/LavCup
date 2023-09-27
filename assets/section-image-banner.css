@@ -276,7 +276,7 @@
 
 @media screen and (min-width: 750px) {
   .banner__content {
-    padding: 5rem;
+    padding: 3rem;
   }
 
   .banner__content--top-left {
@@ -337,7 +337,7 @@
 }
 
 .banner__box {
-  padding: 4rem 3.5rem;
+  padding: 3.5rem 1rem;
   position: relative;
   height: fit-content;
   align-items: center;
@@ -345,6 +345,18 @@
   width: 100%;
   word-wrap: break-word;
   z-index: 1;
+}
+
+.banner__box {
+  border-radius: 20px;
+}
+
+.banner__media {
+  border-radius: 20px;
+}
+
+h2.banner__heading.inline-richtext.h2 {
+  font-size: calc(var(--font-heading-scale) * 3rem);
 }
 
 @media screen and (min-width: 750px) {
@@ -412,13 +424,13 @@
   .banner__box {
     width: auto;
     max-width: 71rem;
-    min-width: 45rem;
+    min-width: 39rem;
   }
 }
 
 @media screen and (min-width: 1400px) {
   .banner__box {
-    max-width: 90rem;
+    max-width: 39rem;
   }
 }
 

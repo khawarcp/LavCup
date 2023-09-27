@@ -73,10 +73,22 @@
 }
 
 .custom-product-wrapper {
-    background-size: contain;
-    background-position: center right;
-    background-repeat: no-repeat;
+    position: relative;
 }
+.custom-product-wrapper::before {
+    content: "";
+    position: absolute;
+    background-image: url(/cdn/shop/files/Right_Column_Background_Image.png);
+    height: 646px;
+    background-size: contain;
+    top: 10%;
+    right: 0;
+    width: 685px;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+
 
 .right-col-description .rte p,
 .right-col-description .rte {
