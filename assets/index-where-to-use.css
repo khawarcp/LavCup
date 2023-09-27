@@ -1,3 +1,29 @@
 .where-to-us-wrapper .section-header {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+.use-item img {
+    border-radius: 20px;
+}
+
+.use-item h5 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.use-wrapper {
+    padding: 0 30px;
+}
+
+.where-to-us-bg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.use-item a{
+    color: inherit;
 }

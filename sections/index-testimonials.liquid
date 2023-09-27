@@ -17,7 +17,7 @@
 <section class="section-{{ section.id }}-padding testimonials-wrapper">
     <div class="page-width">
         {% if section.settings.heading != blank %}
-        <div class="section-header">
+        <div class="section-header  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <h2> {{ section.settings.heading }} </h2>
         </div>
         {% endif %}

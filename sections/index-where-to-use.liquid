@@ -1,6 +1,5 @@
 
-<link rel="stylesheet" href="{{ 'index-testimonials.css' | asset_url }}">
-<script src="{{ 'index-testimonials.js' | asset_url }}" defer></script>
+<link rel="stylesheet" href="{{ 'index-where-to-use.css' | asset_url }}">
 {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -14,31 +13,41 @@
       }
     }
   {%- endstyle -%}
-<section class="section-{{ section.id }}-padding where-to-us-wrapper" style="background-image: url({{ section.settings.background_image | image_url }});">
+<section class="section-{{ section.id }}-padding where-to-us-wrapper">
     <div class="page-width">
-        {% if section.settings.heading != blank %}
-        <div class="section-header">
-            <h2> {{ section.settings.heading }} </h2>
-        </div>
-        {% endif %}
-        <div class="grid {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            {% for block in section.blocks %}
-                {% case block.type %}
-                    {% when 'block' %}
-                        <div class="grid__item" 
-                        {% if settings.animations_reveal_on_scroll %}
-                            data-cascade
-                            style="--animation-order: {{ forloop.index }};"
-                        {% endif %}>
-                        {% if block.settings.image != blank %}                                
-                                <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}" height="" width="" loading="lazy">                                
-                        {% else %}
-                            {{ 'image' | placeholder_svg_tag }}
-                        {% endif %}
-                            <h5> {{ block.settings.heading }} </h5>
-                        </div>                         
-                {% endcase %}
-            {% endfor %}
+        <div class="where-to-us-bg" style="background-image: url({{ section.settings.background_image | image_url }});">
+            {% if section.settings.heading != blank %}
+            <div class="section-header  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                <h2> {{ section.settings.heading }} </h2>
+            </div>
+            {% endif %}
+            <div class="grid use-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                {% for block in section.blocks %}
+                    {% case block.type %}
+                        {% when 'block' %}
+                            <div class="grid__item use-item" 
+                            {% if settings.animations_reveal_on_scroll %}
+                                data-cascade
+                                style="--animation-order: {{ forloop.index }};"
+                            {% endif %}>
+                            {% if block.settings.image != blank %}                                
+                                    <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}" height="" width="" loading="lazy">                                
+                            {% else %}
+                                {{ 'image' | placeholder_svg_tag }}
+                            {% endif %}
+                                <h5> 
+                                    {% if block.settings.heading_url != blank %}                                        
+                                    <a href="{{ block.settings.heading_url }}">
+                                    {% endif %}
+                                        {{ block.settings.heading }}
+                                        {% if block.settings.heading_url != blank %}
+                                    </a>
+                                    {% endif %}
+                                </h5>
+                            </div>                         
+                    {% endcase %}
+                {% endfor %}
+            </div>
         </div>
     </div>
 </section>
