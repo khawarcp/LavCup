@@ -11,6 +11,8 @@
   display: block;
 }
 
+
+
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
@@ -378,6 +380,34 @@
 
 .footer-block-image {
   display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.newsletter-text .footer-block__heading {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.newsletter-text .rte {
+  font-size: 18px;
+  line-height: 28.8px;
+  margin-bottom: 20px;
+}
+
+.footer-block-image .newsletter-form__field-wrapper .field::after {
+  display: none;
+}
+
+.footer-block-image .field__input {
+  border-bottom: 1px solid #E9E9E9;
+  border-radius: 0;
+}
+
+.footer-block-image .newsletter-text .field__label {
+  color: #3F3F40;
+  font-size: 14px;
+  line-height: 18.2px;
 }
 
 .footer-block-image.left {
