@@ -9,7 +9,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/LavCup_Logo.svg",
-            "image_width": 240,
+            "image_width": 205,
             "alignment": "",
             "newsletter_enable": true,
             "newsletter_heading": "Sign up & Save",
