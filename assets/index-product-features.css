@@ -26,7 +26,7 @@
 }
 
 .feature-text {
-    width: 314px;
+    width: 300px;
 }
 
 .feature-text h4 {
@@ -51,16 +51,6 @@
     width: 100%;
 }
 
-.middle-content {
-    top: 60%;
-    left: 0;
-}
-
-.bottom-content {
-    bottom: -25%;
-    left: 0;
-}
-
 .bottom-left-text,
 .middle-left-text,
 .top-left-text {
@@ -77,20 +67,20 @@
 }
 
 .top-left-text {
-    left: -40px;
+    left: -35px;
     position: relative;
 }
 
 .top-right-text {
     position: relative;
-    right: -30px;
+    right: -40px;
 }
 
 .feature-text::before {
     content: '';
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-image: url(https://cdn.shopify.com/s/files/1/0825/6222/0312/files/feature-dot.svg?v=1695817102);
     background-size: contain;
@@ -99,10 +89,69 @@
 }
 
 .top-left-text::before {
-    right: -50px;
+    right: -60px;
     bottom: -35px;
 }
 .top-right-text::before {
-    left: -35px;
-    bottom: -20px;
+    left: -55px;
+    bottom: -40px;
+}
+
+.middle-content {
+    top: 70%;
+    left: 0;
+}
+
+.middle-left-text {
+    position: relative;
+    left: -14%;
+}
+
+.middle-right-text {
+    position: relative;
+    right: -14%;
+}
+
+.middle-left-text::before {
+    top: 20px;
+    right: -65px;
+}
+
+.middle-right-text::before {
+    left: -65px;
+    top: 20px;
+}
+
+.bottom-content {
+    bottom: -20%;
+}
+.bottom-left-text {
+    position: relative;
+    left: -6%;
+}
+
+.bottom-left-text::before {
+    right: -80px;
+    top: -10px;
+}
+
+.bottom-right-text {
+    position: relative;
+    right: -6%;
+}
+
+.bottom-right-text::before {
+    left: -80px;
+    top: -10px;
+}
+
+.bottom-middle-text {
+    text-align: center;
+    position: relative;
+    bottom: -130px;
+}
+
+.bottom-middle-text::before {
+    top: -50px;
+    left: 45%;
 }
