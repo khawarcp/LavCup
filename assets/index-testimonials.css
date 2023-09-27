@@ -1,0 +1,33 @@
+
+.testimonials-wrapper .section-header {
+    text-align: center;
+}
+
+.testimonials-item .rte {
+    margin: 30px 0;
+    font-size: 16px;
+    line-height: 25.8px;
+    min-height: 80px;
+}
+
+.testimonials-item > h5,
+.testimonials-item > p {
+    margin: 0;
+}
+
+.testimonials-item > p {
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.testimonials-slider {
+    margin:0 -8px;
+}
+
+.testimonials-item{
+    margin-right:8px;
+    margin-left:8px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    padding: 30px;
+}

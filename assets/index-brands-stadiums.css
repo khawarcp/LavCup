@@ -1,7 +1,8 @@
-.slick-slider {
+.stadium-slider {
     margin:0 -8px;
+    padding: 0 40px;
 }
-.slick-slide {
+.stadium-item {
     margin-right:8px;
     margin-left:8px;
 }

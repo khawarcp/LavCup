@@ -29,9 +29,9 @@
                             <div class="testimonials-item">
                                 <img src="{{ 'quotation.svg' | asset_url }}" alt="Quote Image" height="48" width="48" loading="lazy">
                                 <div class="rte">
-                                    {{ block.settings.post_comment }}
+                                   {{- block.settings.post_comment -}}
                                 </div>
-                                <h5> {{ block.settings.name }} </h5>
+                                <h5> {{ block.settings.name | prepend: ' ' | prepend: '-'  }} </h5>
                                 <p> {{ block.settings.designation }} </p>
                             </div>    
                         {% endif %}                        
