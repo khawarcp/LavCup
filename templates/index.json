@@ -262,6 +262,46 @@
     },
     "f8aafe0d-6d2b-4694-bca8-03dd66e432f7": {
       "type": "index-where-to-use",
+      "blocks": {
+        "0a7834e8-69a6-4934-8d9e-cca3e57367f1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bathroom.jpg",
+            "heading": "Bathroom",
+            "heading_url": ""
+          }
+        },
+        "bd11d4d2-327d-4eb3-9a70-247e2ea1bdfb": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Office_At_Desk.jpg",
+            "heading": "Office: At Desk",
+            "heading_url": ""
+          }
+        },
+        "f6300092-6770-4358-8de6-342fc87dc879": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Entryway.jpg",
+            "heading": "Entryway",
+            "heading_url": ""
+          }
+        },
+        "fa067e5a-947b-41c0-94cb-af2fcd7568c9": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bedside.jpg",
+            "heading": "Bedside",
+            "heading_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "0a7834e8-69a6-4934-8d9e-cca3e57367f1",
+        "bd11d4d2-327d-4eb3-9a70-247e2ea1bdfb",
+        "f6300092-6770-4358-8de6-342fc87dc879",
+        "fa067e5a-947b-41c0-94cb-af2fcd7568c9"
+      ],
       "settings": {
         "background_image": "shopify:\/\/shop_images\/Where_to_use_banner.jpg",
         "heading": "Where To Use <span>Lavcup<\/span>",
