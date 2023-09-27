@@ -10,7 +10,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/LavCup_Logo.svg",
             "image_width": 240,
-            "alignment": ""
+            "alignment": "",
+            "newsletter_enable": true,
+            "newsletter_heading": "Sign up & Save",
+            "subtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
           }
         },
         "15f030cf-8be5-46c1-a032-18148a65ac58": {
