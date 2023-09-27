@@ -14,31 +14,29 @@
       }
     }
   {%- endstyle -%}
-<section class="section-{{ section.id }}-padding testimonials-wrapper">
+<section class="section-{{ section.id }}-padding where-to-us-wrapper">
     <div class="page-width">
         {% if section.settings.heading != blank %}
         <div class="section-header">
             <h2> {{ section.settings.heading }} </h2>
         </div>
         {% endif %}
-        <div class="testimonials-items testimonials-slider {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <div class="grid {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             {% for block in section.blocks %}
                 {% case block.type %}
-                    {% when 'testimonials' %}
-                        {% if block.settings.post_comment != blank %}
-                            <div class="testimonials-item" 
+                    {% when 'block' %}
+                            <div class="grid__item" 
                             {% if settings.animations_reveal_on_scroll %}
                                 data-cascade
                                 style="--animation-order: {{ forloop.index }};"
                             {% endif %}>
-                                <img src="{{ 'quotation.svg' | asset_url }}" alt="Quote Image" height="48" width="48" loading="lazy">
-                                <div class="rte">
-                                   {{- block.settings.post_comment -}}
-                                </div>
-                                <h5> {{ block.settings.name | prepend: ' ' | prepend: '-'  }} </h5>
-                                <p> {{ block.settings.designation }} </p>
-                            </div>    
-                        {% endif %}                        
+                            {% if block.settings.image != blank %}                                
+                                 <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}" height="" width="" loading="lazy">                                
+                            {% else %}
+                                {{ 'image' | placeholder_svg_tag }}
+                            {% endif %}
+                                <h5> {{ block.settings.heading }} </h5>
+                            </div>                         
                 {% endcase %}
             {% endfor %}
         </div>
@@ -49,13 +47,13 @@
 
 {% schema %}
     {
-        "name": "Testimonials",
+        "name": "Where to use",
         "settings": [
             {
                 "type": "text",
                 "id": "heading",
                 "label": "Heading",
-                "default": "Listen From Our Beloved <span>Clients</span>"
+                "default": "Where To Use <span>Lavcup</span>"
             },
             {
                 "type": "header",
@@ -84,33 +82,31 @@
         ],
         "blocks": [
             {
-                "type": "testimonials",
-                "name": "Testimonials",
+                "type": "block",
+                "name": "Block",
                 "settings": [
                     {
-                        "type": "richtext",
-                        "id": "post_comment",
-                        "label": "Comment",
-                        "default": "<p>We looked at cup holder alternatives in the past, but never came across a product as sturdy and effective as LavCup.</p>"
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
                     },
                     {
                         "type": "text",
-                        "id": "name",
-                        "label": "Name",
-                        "default": "Steve R"
+                        "id": "heading",
+                        "label": "Heading",
+                        "default": "Bathroom"
                     },
                     {
-                        "type": "text",
-                        "id": "designation",
-                        "label": "Designation",
-                        "default": "TD Garden"
+                        "type": "url",
+                        "id": "heading_url",
+                        "label": "URL"
                     }
                 ]
             }
         ],
         "presets": [
             {
-                "name": "Testimonials"
+                "name": "Where to use"
             }
         ]
     }
