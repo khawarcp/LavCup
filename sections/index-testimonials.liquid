@@ -17,16 +17,20 @@
 <section class="section-{{ section.id }}-padding testimonials-wrapper">
     <div class="page-width">
         {% if section.settings.heading != blank %}
-        <div class="section-header">
+        <div class="section-header  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <h2> {{ section.settings.heading }} </h2>
         </div>
         {% endif %}
-        <div class="testimonials-items testimonials-slider">
+        <div class="testimonials-items testimonials-slider {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             {% for block in section.blocks %}
                 {% case block.type %}
                     {% when 'testimonials' %}
                         {% if block.settings.post_comment != blank %}
-                            <div class="testimonials-item">
+                            <div class="testimonials-item" 
+                            {% if settings.animations_reveal_on_scroll %}
+                                data-cascade
+                                style="--animation-order: {{ forloop.index }};"
+                            {% endif %}>
                                 <img src="{{ 'quotation.svg' | asset_url }}" alt="Quote Image" height="48" width="48" loading="lazy">
                                 <div class="rte">
                                    {{- block.settings.post_comment -}}

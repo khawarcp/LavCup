@@ -5,6 +5,17 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "6d8f5456-f5e8-4401-a634-906ca617cf62": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LavCup_Logo.svg",
+            "image_width": 205,
+            "alignment": "",
+            "newsletter_enable": true,
+            "newsletter_heading": "Sign up & Save",
+            "subtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
         "15f030cf-8be5-46c1-a032-18148a65ac58": {
           "type": "link_list",
           "settings": {
@@ -15,24 +26,25 @@
         "48b2c3b2-557a-4c50-84f9-f02888715e24": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "Policies",
             "menu": "footer"
           }
         }
       },
       "block_order": [
+        "6d8f5456-f5e8-4401-a634-906ca617cf62",
         "15f030cf-8be5-46c1-a032-18148a65ac58",
         "48b2c3b2-557a-4c50-84f9-f02888715e24"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "newsletter_enable": true,
+        "color_scheme": "scheme-f88bfafd-3f07-4b40-9a82-d51a89c3baa8",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "payment_enable": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
         "show_policy": false,
         "margin_top": 0,
         "padding_top": 36,
