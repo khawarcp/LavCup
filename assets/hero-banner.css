@@ -52,3 +52,21 @@
         height: 500px;
     }
 }
+@media screen and (max-width: 991px) {
+    .banner-heading {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    
+    .banner-text {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    .hero-banner-content {
+        padding: 20px;
+    }
+    .hero-banner {
+        height: 400px;
+    }
+}

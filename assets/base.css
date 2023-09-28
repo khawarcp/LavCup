@@ -3533,14 +3533,17 @@ details-disclosure > details {
     font-size: calc(var(--font-heading-scale) * 2.2rem);
 }
 body {
-  font-size: 1.8rem;
-  line-height: 28px;
+  font-size: 1.6rem;
+  line-height: 26px;
 }
 .footer__blocks-wrapper>.footer-block:not(:first-child) {
   padding: 0 10px;
 }
 .footer__blocks-wrapper>.footer-block:first-child {
   width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+}
+h5, .h5 {
+  font-size: calc(var(--font-heading-scale) * 1.2rem);
 }
 }
 

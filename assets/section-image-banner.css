@@ -499,3 +499,9 @@ h2.banner__heading.inline-richtext.h2 {
     min-width: 39rem;
 }
 }
+@media screen and (max-width: 1439px) {
+.banner__box {    
+    max-width: 32rem;
+    min-width: 32rem;
+}
+}
