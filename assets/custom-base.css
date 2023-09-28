@@ -58,3 +58,8 @@ ul {
 .buy-now-header {
   font-weight: 500;
 }
+
+.slick-arrow,
+.slick-dots {
+  display: none;
+}
