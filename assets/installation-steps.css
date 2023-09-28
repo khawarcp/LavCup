@@ -1,3 +1,9 @@
 .step-inner {
     align-items: center;
 }
+
+@media screen and (max-width: 767px) {
+   .steps-wrapper .grid--2-col .grid__item {
+        width: calc(1000% - var(--grid-mobile-horizontal-spacing) / 2);
+    }
+}

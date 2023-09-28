@@ -27,3 +27,23 @@
 .use-item a{
     color: inherit;
 }
+
+@media screen and (max-width:1199px) {
+    .where-to-us-wrapper .section-header {
+        padding-top: 5px;
+    }
+}
+@media screen and (max-width:991px) {
+    .grid__item.use-item {
+        width: calc(50% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
+    }
+    
+    .use-wrapper{
+        padding: 0;
+    }
+    
+    .where-to-us-bg {
+        background-image: none !important;
+    }
+    
+}

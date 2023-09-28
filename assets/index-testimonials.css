@@ -31,3 +31,18 @@
     border-radius: 10px;
     padding: 30px;
 }
+
+@media screen and (max-width: 1439px) {
+    .testimonials-item {    
+        padding: 20px;
+    }
+    .testimonials-item .rte {
+        min-height: 105px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .testimonials-item>p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}

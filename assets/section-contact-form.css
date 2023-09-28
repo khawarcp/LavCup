@@ -22,7 +22,7 @@
     text-align: right;
 }
 
-.contact h2, .contact p {
+.contact > h2, .contact > p {
     text-align: center;
 }
 .contact p {

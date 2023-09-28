@@ -6,3 +6,26 @@
 .fact-item h2 {
     margin: 0;
 }
+
+@media screen and (max-width: 1199px) {
+    .fact-item p {
+        font-size: 16px;
+        line-height: 23.8px;
+    }      
+}
+@media screen and (max-width: 1199px) {
+    .facts-wrapper .grid__item {
+        width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+        max-width: calc(100% - var(--grid-desktop-horizontal-spacing) / 2);
+    }    
+}
+
+@media screen and (max-width: 767px) {
+    .fact-item p {
+        font-size: 14px;
+    }
+    
+    .fact-item p br {
+        display: none;
+    }
+}

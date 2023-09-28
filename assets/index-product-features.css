@@ -161,3 +161,243 @@
     top: -60px;
     left: 45%;
 }
+
+@media screen and (max-width: 1439px) {
+    .product-main-image:before {
+        width: 640px;
+        margin: 0 auto;
+    }
+    .top-content {
+        top: 35%;
+    }
+    
+    .top-right-text {
+        right: -10px;
+    }
+    
+    .top-left-text {
+        left: -10px;
+    }
+    .middle-left-text {        
+        left: -10.5%;
+    }
+    .middle-right-text {     
+        right: -10.5%;
+    }
+    .bottom-content {
+        bottom: -10%;
+    }
+    .bottom-right-text {
+        right: -4%;
+    }
+    
+    .bottom-left-text {
+        left: -4%;
+    }
+    
+    .bottom-left-text:before {
+        right: -60px;
+    }
+    
+    .bottom-right-text:before {
+        left: -60px;
+    }
+    
+    .bottom-middle-text {
+        bottom: -110px;
+    }
+    
+    .bottom-middle-text:before {
+        top: -45px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .product-main-image img {
+        width: 260px;
+        height: 470px;
+        object-fit: contain;
+    }
+    
+    .product-main-image:before {
+        width: 500px;
+    }
+    .feature-text:before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .top-content {
+        top: 42%;
+    }
+    .top-left-text {
+        left: -20px;
+    }
+    .top-left-text:before {
+        right: -30px;
+    }
+    .top-right-text {
+        right: -25px;
+    }
+    .top-right-text:before {
+        left: -25px;
+    }
+    .middle-content {
+        top: 80%;
+    }
+    .middle-left-text {
+        left: -12%;
+    }
+    .middle-right-text {
+        right: -12%;
+    }
+    .middle-right-text:before {
+        left: -40px;
+    }
+    
+    .middle-left-text:before {
+        right: -40px;
+    }
+    .bottom-content {
+        bottom: -29%;
+    }
+    .bottom-middle-text {
+        bottom: -70px;
+    }
+    .product-features {
+        padding-bottom: 215px!important;     
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .product-main-image img {
+        width: 170px;
+    }
+    
+    .product-main-image:before {
+        width: 350px;
+        top: 20%;
+    }
+    .top-content {
+        top: 43%;
+    }
+    
+    .feature-text h4 {
+        font-size: 14px;
+    }
+    
+    .feature-text p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .feature-text {
+        width: 220px;
+    }
+    
+    .product-main-image {
+        margin-top: -80px;
+    }
+    
+    .middle-content {
+        top: 70%;
+    }
+
+    .middle-left-text {
+        left: -13%;
+    }
+    
+    .middle-right-text {
+        right: -13%;
+    }
+    
+    .bottom-content {
+        bottom: -9%;
+    }
+    
+    .bottom-middle-text {
+        bottom: -45px;
+    }
+    
+    .bottom-middle-text:before {
+        top: -35px;
+    }
+    
+    .product-features {
+        padding-bottom: 100px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .product-main-image:before {
+        display: none;
+    }
+    
+    img {}
+    
+    .top-content {
+    }
+    
+    .feature-text-content {
+        position: static;
+    }
+    
+    .feature-text {
+        position: static;
+        width: 100%;
+    }
+    
+    .top-left-text:before {
+        display: none;
+    }
+    
+    .feature-text-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .top-left-text {
+        text-align: left;
+    }
+    
+    .middle-left-text {
+        text-align: left;
+    }
+    
+    .product-main-image img {
+        width: 100%;
+    }
+    
+    .product-main-image {
+        margin-top: 0;
+    }
+ 
+    .bottom-left-text {
+        text-align: left;
+    }
+    
+    .bottom-middle-text {
+        text-align: left;
+    }
+    
+    .feature-text p {
+        font-size: 15px;
+    }
+    
+    .feature-text h4 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .feature-text-content:not(:first-child) {
+        margin-top: 15px;
+    }
+    
+    .product-features {
+        padding-bottom: 20px !important;
+    }
+    
+    .feature-text:before {
+        display: none;
+    }
+}

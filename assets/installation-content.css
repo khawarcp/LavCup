@@ -20,3 +20,42 @@
     align-items: center;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1199px) {
+    .parts-wrapper {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 25px;
+    }
+    
+    .part-item:not(:last-child) {
+        border-right: 0;
+    }
+    
+    .part-item {
+        width: 31%;
+    }
+}
+
+@media screen and (max-width: 991px){
+.part-item {
+    width: 30%;
+}
+}
+@media screen and (max-width: 991px){
+    .part-item {
+        width: calc(50% - 25px);
+    }
+    
+    .part-image {
+        width: 90px;
+    }
+    
+    .section-header-installation {
+        margin-bottom: 30px;
+    }
+    
+    .parts-wrapper {
+        justify-content: center;
+    }
+}
