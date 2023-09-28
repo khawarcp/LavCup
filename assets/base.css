@@ -317,7 +317,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: calc(var(--font-heading-scale) * 3.2rem);
+  font-size: calc(var(--font-heading-scale) * 2.2rem);
 }
 
 @media only screen and (min-width: 750px) {
@@ -3526,11 +3526,21 @@ details-disclosure > details {
     h1, .h1 {
       font-size: calc(var(--font-heading-scale) * 3rem);
   }
+  h2, .h2 {
+    font-size: calc(var(--font-heading-scale) * 2.5rem);
+}
   h3, .h3 {
     font-size: calc(var(--font-heading-scale) * 2.2rem);
 }
 body {
   font-size: 1.8rem;
+  line-height: 28px;
+}
+.footer__blocks-wrapper>.footer-block:not(:first-child) {
+  padding: 0 10px;
+}
+.footer__blocks-wrapper>.footer-block:first-child {
+  width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
 }
 }
 
@@ -3538,4 +3548,12 @@ body {
   table:not([class]) {
     font-size: 1.3rem;
   }
+
+  .button.buy-now-header {
+    padding: 0;
+    font-size: 1.2rem;
+    min-width: calc(8rem + var(--buttons-border-width) * 2);
+    min-height: calc(3rem + var(--buttons-border-width) * 2);
+}
+
 }

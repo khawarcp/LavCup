@@ -1635,3 +1635,17 @@ a.product__text {
     border: none;
   }
 }
+
+@media screen and (max-width: 991px) {
+  .product .price__container {
+    font-size: 18px;
+    line-height: 26.4px;
+}
+.product__description p {
+  font-size: 16px;
+  line-height: 22.8px;
+}
+.product__description p:last-child {
+  font-size: 15px;
+}
+}
