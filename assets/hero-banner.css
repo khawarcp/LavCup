@@ -70,3 +70,25 @@
         height: 400px;
     }
 }
+@media screen and (max-width: 767px) {
+    .hero-banner {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .hero-banner-content {
+        width: 100%;
+    }
+    
+    .hero-banner-image {
+        width: 100%;
+    }
+    
+    .hero-banner-content {
+        padding: 0;
+    }
+    
+    .banner-heading {
+        font-size: 28px;
+    }
+}

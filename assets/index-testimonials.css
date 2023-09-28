@@ -40,3 +40,9 @@
         min-height: 105px;
     }
 }
+@media screen and (max-width: 991px) {
+    .testimonials-item>p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}

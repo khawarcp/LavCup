@@ -19,3 +19,13 @@
         max-width: calc(100% - var(--grid-desktop-horizontal-spacing) / 2);
     }    
 }
+
+@media screen and (max-width: 767px) {
+    .fact-item p {
+        font-size: 14px;
+    }
+    
+    .fact-item p br {
+        display: none;
+    }
+}

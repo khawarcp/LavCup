@@ -3543,7 +3543,7 @@ body {
   width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
 }
 h5, .h5 {
-  font-size: calc(var(--font-heading-scale) * 1.2rem);
+  font-size: calc(var(--font-heading-scale) * 1.4rem);
 }
 }
 

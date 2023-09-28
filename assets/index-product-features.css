@@ -269,3 +269,135 @@
     }
 }
 
+@media screen and (max-width: 991px) {
+    .product-main-image img {
+        width: 170px;
+    }
+    
+    .product-main-image:before {
+        width: 350px;
+        top: 20%;
+    }
+    .top-content {
+        top: 43%;
+    }
+    
+    .feature-text h4 {
+        font-size: 14px;
+    }
+    
+    .feature-text p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .feature-text {
+        width: 220px;
+    }
+    
+    .product-main-image {
+        margin-top: -80px;
+    }
+    
+    .middle-content {
+        top: 70%;
+    }
+
+    .middle-left-text {
+        left: -13%;
+    }
+    
+    .middle-right-text {
+        right: -13%;
+    }
+    
+    .bottom-content {
+        bottom: -9%;
+    }
+    
+    .bottom-middle-text {
+        bottom: -45px;
+    }
+    
+    .bottom-middle-text:before {
+        top: -35px;
+    }
+    
+    .product-features {
+        padding-bottom: 100px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .product-main-image:before {
+        display: none;
+    }
+    
+    img {}
+    
+    .top-content {
+    }
+    
+    .feature-text-content {
+        position: static;
+    }
+    
+    .feature-text {
+        position: static;
+        width: 100%;
+    }
+    
+    .top-left-text:before {
+        display: none;
+    }
+    
+    .feature-text-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .top-left-text {
+        text-align: left;
+    }
+    
+    .middle-left-text {
+        text-align: left;
+    }
+    
+    .product-main-image img {
+        width: 100%;
+    }
+    
+    .product-main-image {
+        margin-top: 0;
+    }
+ 
+    .bottom-left-text {
+        text-align: left;
+    }
+    
+    .bottom-middle-text {
+        text-align: left;
+    }
+    
+    .feature-text p {
+        font-size: 15px;
+    }
+    
+    .feature-text h4 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .feature-text-content:not(:first-child) {
+        margin-top: 15px;
+    }
+    
+    .product-features {
+        padding-bottom: 20px !important;
+    }
+    
+    .feature-text:before {
+        display: none;
+    }
+}
