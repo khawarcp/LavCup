@@ -192,11 +192,11 @@
         "91acfb5b-df12-4cf8-94e4-ab70b339306d"
       ],
       "settings": {
-        "step_number": "Step 3",
+        "step_number": "Step <span>3<\/span>",
         "image": "shopify:\/\/shop_images\/Step_3.jpg",
-        "heading": "Lavcup on Wall Mount",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "heading": "Lavcup on Wall <span>Mount<\/span>",
+        "padding_top": 76,
+        "padding_bottom": 72
       }
     }
   },
