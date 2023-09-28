@@ -633,3 +633,34 @@
 }
 
 }
+
+@media screen and (max-width: 767px) {
+  .footer-block-image {
+    gap: 0;
+}
+
+.newsletter-text .footer-block__heading {
+    margin-bottom: 1rem;
+}
+
+.newsletter-text .rte {
+    margin-bottom: 1rem;
+}
+
+.footer-block__heading {
+    margin-bottom: 1.5rem;
+}
+
+.footer-block__details-content .list-menu__item--link {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.footer-block.grid__item {
+    margin: 2.5rem 0;
+}
+
+.footer__content-bottom {
+    padding-top: 1rem;
+}
+}
