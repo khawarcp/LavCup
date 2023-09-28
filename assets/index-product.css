@@ -98,3 +98,33 @@
 .quick-add__submit{
     min-width: 30% !important;
 }
+
+@media screen and (max-width: 1199px) {
+    .title-price {
+        padding-top: 35px;
+    }
+    
+    .price-wrap {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .price-wrap h3 {
+        font-size: 20px;
+    }
+    
+    .right-col-product, .right-col-image {
+        padding-left: 40px;
+    }
+    
+    .right-column-inner .button--secondary {
+        margin-top: 0;
+    }
+    
+    .title-price h2 {
+        width: calc(100% - 80px);
+    }
+    .right-col-description .rte {
+        margin-top: 70px;
+    }
+}

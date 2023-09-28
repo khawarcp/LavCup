@@ -35,3 +35,20 @@
     font-weight: 600;
     border-bottom: 1px solid;
 }
+
+@media screen and (max-width: 1439px) {
+    .banner-heading {
+        font-size: 50px;
+        line-height: 66.2px;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .banner-heading {
+        font-size: 40px;
+        line-height: 55.2px;
+    }
+    .hero-banner {
+        height: 500px;
+    }
+}
