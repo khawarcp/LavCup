@@ -6,7 +6,7 @@
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "use_custom_font": true,
+    "use_custom_font": false,
     "custom_heading_font": "'Lexend Deca'",
     "custom_body_font": "'Outfit'",
     "page_width": 1320,
