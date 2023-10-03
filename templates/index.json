@@ -16,7 +16,7 @@
         "left_image": "shopify:\/\/shop_images\/Left_Column_Image.jpg",
         "link_text": "More Images",
         "link_url": "shopify:\/\/products\/the-lavcup",
-        "product_heading": "The Antibacterial Shelf <span>Lavcup<\/span>",
+        "product_heading": "The Antibacterial Shelf Lavcup",
         "right_text_1": "<p><strong>Shelf Dimensions:<\/strong>7.75\"H x 6\"W x 5.25\"D<br\/><strong>Window Frame:<\/strong>6\"H x 5.25\"W<\/p>",
         "right_text_2": "<p>Antibacterial shelf with non-slip surface and built-in customizable messaging. Please reference our installation guide on how to best install your LavCup.<\/p>",
         "custom_product": "the-lavcup",
@@ -318,9 +318,18 @@
         "f6300092-6770-4358-8de6-342fc87dc879",
         "fa067e5a-947b-41c0-94cb-af2fcd7568c9"
       ],
+      "disabled": true,
       "settings": {
         "background_image": "shopify:\/\/shop_images\/Where_to_use_banner.jpg",
         "heading": "Where To Use <span>Lavcup<\/span>",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "527f48ea-cc0d-414c-afe7-4435439c9abe": {
+      "type": "index-instagram",
+      "settings": {
+        "heading": "@lavcup<span>stories<\/span>",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -335,6 +344,7 @@
     "67758c34-3cbc-4c37-a0aa-ce55697efa6a",
     "d5fea8a6-effc-4b1c-9ef0-8f4466ee7ba9",
     "23022dc7-0d29-4bdb-8bc0-ad1e02411899",
-    "f8aafe0d-6d2b-4694-bca8-03dd66e432f7"
+    "f8aafe0d-6d2b-4694-bca8-03dd66e432f7",
+    "527f48ea-cc0d-414c-afe7-4435439c9abe"
   ]
 }
