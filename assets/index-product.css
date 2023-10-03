@@ -12,7 +12,8 @@
 
 .left-col-content h2 {
     margin-top: 95px;
-    margin-bottom: 0;
+    margin-bottom: 0
+      padding-right: 60px;
 }
 
 .title-price {
