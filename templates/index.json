@@ -328,6 +328,34 @@
     },
     "527f48ea-cc0d-414c-afe7-4435439c9abe": {
       "type": "index-instagram",
+      "blocks": {
+        "d1a9beaf-aea8-47d4-b848-8cb10e521b4e": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "8a6e3772-7a17-499a-a352-3484a7eb85fe": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "9a95ef24-16ad-49fc-ad41-a15e94c98a7b": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "ae41262f-93dd-4936-a9e0-9deda8868920": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d1a9beaf-aea8-47d4-b848-8cb10e521b4e",
+        "8a6e3772-7a17-499a-a352-3484a7eb85fe",
+        "9a95ef24-16ad-49fc-ad41-a15e94c98a7b",
+        "ae41262f-93dd-4936-a9e0-9deda8868920"
+      ],
       "settings": {
         "heading": "@lavcup<span>stories<\/span>",
         "padding_top": 36,
