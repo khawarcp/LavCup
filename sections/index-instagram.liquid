@@ -1,7 +1,43 @@
+<link rel="stylesheet" href="{{ 'index-instagram.css' | asset_url }}">
+
+<section class="instgram-wrapper">
+  <div class="page-width">
+    <div class="grid">
+      <div class="grid__item">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'image' %}
+        <div class="instagram-image-item">
+          {% if block.settings.image != blank %}
+            <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}" width="" height="" loading="lazy">
+          {% else %}
+            {{ 'image' | placeholder_svg_tag }}
+          {% endif %}
+        </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Custom Instagram",
+    "settings": [],
+    "blocks": [
+      {
+        "name" : "image",
+        "type" : "image",
+        "settings" : [
+          {
+            "type" : "image_picker",
+            "id" : "image",
+            "label" : "Image"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
 
