@@ -2,9 +2,9 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/LavCup_Logo.svg",
     "logo_width": 170,
-    "type_header_font": "assistant_n4",
+    "type_header_font": "lato_n7",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "lato_n4",
     "body_scale": 100,
     "use_custom_font": false,
     "custom_heading_font": "'Lexend Deca'",
