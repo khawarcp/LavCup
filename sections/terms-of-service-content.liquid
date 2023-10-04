@@ -14,7 +14,7 @@
 {%- endstyle -%}
 <section class="section-{{ section.id }}-padding policy privacy-policy-content">
   <div class="page-width page-width--narrow">
-    <div class="rte">
+    <div class="rte {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       {{ shop.terms_of_service }}
     </div>
   </div>
