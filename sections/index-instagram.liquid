@@ -19,7 +19,7 @@
         <h2>{{ section.settings.heading }}</h2>
       </div>
     {% endif %}
-    <div class="grid">    
+    <div class="grid grid--1-col-tablet-down">    
         {% for block in section.blocks %}
           {% case block.type %}
             {% when 'image' %}
